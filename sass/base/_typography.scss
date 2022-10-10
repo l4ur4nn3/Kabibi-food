@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+%Lora {
+    font-family: 'Lora', serif;
+}
+%Open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    @extend %Open;
+    h1 {
+        @extend %Lora;
+    }
+}
+
+main {
+        @extend %Open;
+        ul {
+            @extend %Lora;
+        }
+        h2 {
+            @extend %Lora;
+        }
+        
+        h3 {
+            @extend %Lora;
+        }
+        h4 {
+            @extend %Lora;
+        }
+        .blog-titles {
+            @extend %Lora;
+        }       
+}
