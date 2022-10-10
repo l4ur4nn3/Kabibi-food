@@ -1,0 +1,19 @@
+{
+  "name": "kabibi-food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l4ur4nn3/Kabibi-food.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l4ur4nn3/Kabibi-food/issues"
+  },
+  "homepage": "https://github.com/l4ur4nn3/Kabibi-food#readme"
+}
