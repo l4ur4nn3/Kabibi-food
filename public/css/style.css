@@ -6,4 +6,29 @@ header h1, main ul, main h2, main h3, main h4, main .blog-titles {
 header, main, footer .footer-menu, footer .footer-menu-p {
   font-family: 'Open Sans', sans-serif; }
 
+header {
+  background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
+  background-position: center right;
+  height: 750px; }
+  header h1 {
+    background-image: url("../../ressources/images/logo/logo.png");
+    background-repeat: no-repeat;
+    color: transparent; }
+  header em {
+    color: white; }
+
+main .category {
+  background-color: #FAF6F0; }
+main .our-menu {
+  background-color: #FAF6F0; }
+main .chefs {
+  background-color: #0C0C0C;
+  color: white; }
+main .blog-article {
+  background-color: #FAF6F0; }
+
+footer {
+  background-color: #0C0C0C;
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */
