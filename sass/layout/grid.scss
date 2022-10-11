@@ -1,0 +1,82 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    height: 400px;
+    .noodles {
+        background-image: url("../../ressources/images/gallery/img1gallerybox.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center right;
+        h4 {
+            display: none;
+        }
+        p {
+            display: none;
+        }
+    }
+    .sandwiches {
+        background-image: url("../../ressources/images/gallery/img2gallerybox.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        h4 {
+            display: none;
+        }
+        p {
+            display: none;
+        }
+    }
+    .pizza {
+        background-image: url("../../ressources/images/gallery/img3gallerybox.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        h4 {
+            display: none;
+        }
+        p {
+            display: none;
+        }
+    }
+}
+.gridTwo {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    height: 400px;
+    .uncooked {
+        background-image: url("../../ressources/images/gallery/img4gallerybox.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        h4 {
+            display: none;
+        }
+        p {
+            display: none;
+        }
+    }
+    .steak {
+        background-image: url("../../ressources/images/gallery/img5gallerybox.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        h4 {
+            display: none;
+        }
+        p {
+            display: none;
+        }
+    }
+    .fries {
+        background-image: url("../../ressources/images/gallery/img6gallerybox.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        h4 {
+            display: none;
+        }
+        p {
+            display: none;
+        }
+    }
+}

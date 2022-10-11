@@ -106,4 +106,68 @@ footer {
     height: 15em;
     margin: 1em; }
 
+.gridOne {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  height: 400px; }
+  .gridOne .noodles {
+    background-image: url("../../ressources/images/gallery/img1gallerybox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right; }
+    .gridOne .noodles h4 {
+      display: none; }
+    .gridOne .noodles p {
+      display: none; }
+  .gridOne .sandwiches {
+    background-image: url("../../ressources/images/gallery/img2gallerybox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .gridOne .sandwiches h4 {
+      display: none; }
+    .gridOne .sandwiches p {
+      display: none; }
+  .gridOne .pizza {
+    background-image: url("../../ressources/images/gallery/img3gallerybox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .gridOne .pizza h4 {
+      display: none; }
+    .gridOne .pizza p {
+      display: none; }
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  height: 400px; }
+  .gridTwo .uncooked {
+    background-image: url("../../ressources/images/gallery/img4gallerybox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .gridTwo .uncooked h4 {
+      display: none; }
+    .gridTwo .uncooked p {
+      display: none; }
+  .gridTwo .steak {
+    background-image: url("../../ressources/images/gallery/img5gallerybox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .gridTwo .steak h4 {
+      display: none; }
+    .gridTwo .steak p {
+      display: none; }
+  .gridTwo .fries {
+    background-image: url("../../ressources/images/gallery/img6gallerybox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .gridTwo .fries h4 {
+      display: none; }
+    .gridTwo .fries p {
+      display: none; }
+
 /*# sourceMappingURL=style.css.map */
