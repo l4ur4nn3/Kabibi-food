@@ -1,0 +1,13 @@
+.slide
+{
+    @include flexbase(row,center, center);
+
+    &__item
+    {
+        @include flexbase(column,center, center);
+        background-color: $color-gold;
+        width: 15em;
+        height: 15em;
+        margin: 1em;
+    }
+}
