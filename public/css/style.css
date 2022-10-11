@@ -8,6 +8,26 @@ footer .footerMenuP, footer .footerMenu, main, header {
   font-family: "Open Sans", sans-serif;
 }
 
+.button--white, .button--transparent, .button--gold, .button--white:hover {
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.button--gold, .button--white:hover {
+  background-color: #C8A96A;
+  border-color: #C8A96A;
+  color: #fff;
+}
+.button--transparent {
+  background-color: transparent;
+  border-color: #0C0C0C;
+  color: #0C0C0C;
+}
+.button--white {
+  background-color: #fff;
+  border-color: #0C0C0C;
+  color: #0C0C0C;
+}
 header {
   color: #fff;
   background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
@@ -42,25 +62,21 @@ footer {
   color: #fff;
 }
 
-.button--white, .button--transparent, .button--gold, .button--white:hover {
-  padding: 1em;
-  border-radius: 10px;
+.slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-
-.button--gold, .button--white:hover {
+.slide__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #C8A96A;
-  border-color: #C8A96A;
-  color: #fff;
-}
-.button--transparent {
-  background-color: transparent;
-  border-color: #0C0C0C;
-  color: #0C0C0C;
-}
-.button--white {
-  background-color: #fff;
-  border-color: #0C0C0C;
-  color: #0C0C0C;
+  width: 15em;
+  height: 15em;
+  margin: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
