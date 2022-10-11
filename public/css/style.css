@@ -42,11 +42,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-header h1, main ul, main h2, main h3, main h4, main .blogTitles {
+header .title-one, main ul, main h2, main h3, main h4, main .blogTitles {
   font-family: 'Lora', serif; }
 
 header, main, footer .footerMenu, footer .footerMenuP {
   font-family: 'Open Sans', sans-serif; }
+
+header .title-one {
+  text-transform: uppercase; }
+
+main h2 {
+  text-transform: uppercase; }
+main h3 {
+  text-transform: uppercase; }
+main .slide__item p {
+  text-transform: uppercase; }
+main .slide__item .blogTitles {
+  text-transform: capitalize; }
 
 .button--gold, .button--white:hover, .button--transparent, .button--white {
   padding: 1em;

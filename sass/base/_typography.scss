@@ -10,8 +10,9 @@
 
 header {
     @extend %Open;
-    h1 {
+    .title-one {
         @extend %Lora;
+        text-transform: uppercase;
     }
 }
 
@@ -22,10 +23,12 @@ main {
         }
         h2 {
             @extend %Lora;
+            text-transform: uppercase;
         }
         
         h3 {
             @extend %Lora;
+            text-transform: uppercase;
         }
         h4 {
             @extend %Lora;
@@ -33,7 +36,15 @@ main {
         .blogTitles {
             @extend %Lora;
         }       
-}
+        .slide__item {
+            p {
+                text-transform: uppercase;
+            }
+            .blogTitles {
+            text-transform: capitalize;
+            }
+        }
+    }
 
 footer {
     .footerMenu {
