@@ -1,34 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-header h1, main ul, main h2, main h3, main h4, main .blog-titles {
-  font-family: 'Lora', serif; }
+main .blog-titles, main h4, main h3, main h2, main ul, header h1 {
+  font-family: "Lora", serif;
+}
 
-header, main, footer .footer-menu, footer .footer-menu-p {
-  font-family: 'Open Sans', sans-serif; }
+footer .footer-menu-p, footer .footer-menu, main, header {
+  font-family: "Open Sans", sans-serif;
+}
 
 header {
-  background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
+  background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
   background-position: center right;
-  height: 750px; }
-  header h1 {
-    background-image: url("../../ressources/images/logo/logo.png");
-    background-repeat: no-repeat;
-    color: transparent; }
-  header em {
-    color: white; }
+  height: 750px;
+}
+header h1 {
+  background-image: url("../../ressources/images/logo/logo.png");
+  background-repeat: no-repeat;
+  color: transparent;
+}
+header em {
+  color: white;
+}
 
 main .category {
-  background-color: #FAF6F0; }
+  background-color: #FAF6F0;
+}
 main .our-menu {
-  background-color: #FAF6F0; }
+  background-color: #FAF6F0;
+}
 main .chefs {
   background-color: #0C0C0C;
-  color: white; }
+  color: white;
+}
 main .blog-article {
-  background-color: #FAF6F0; }
+  background-color: #FAF6F0;
+}
 
 footer {
   background-color: #0C0C0C;
-  color: white; }
+  color: white;
+}
+
+.button--white, .button--transparent, .button--gold, .button--white:hover {
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.button--gold, .button--white:hover {
+  background-color: #f9c80e;
+  border-color: #f9c80e;
+  color: #fff;
+}
+.button--transparent {
+  background-color: transparent;
+  border-color: #000;
+  color: #000;
+}
+.button--white {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
 
 /*# sourceMappingURL=style.css.map */
