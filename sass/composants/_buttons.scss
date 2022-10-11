@@ -1,0 +1,39 @@
+%resise
+    {
+        padding: 1em;
+        border-radius: 10px;
+    }
+
+.button
+{
+
+    &--gold
+    {
+        background-color: $color-gold;
+        border-color: $color-gold;
+        color: $color-white;
+        @extend %resise;
+    }
+
+    &--transparent
+    {
+        background-color: transparent;
+        border-color: $color-black;
+        color: $color-black;
+        @extend %resise;
+    }
+
+    &--white
+    {
+        background-color: $color-white;
+        border-color: $color-black;
+        color: $color-black;
+        @extend %resise;
+
+        &:hover
+        {
+            @extend .button--gold;
+        }
+        
+    }
+}
