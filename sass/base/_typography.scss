@@ -30,16 +30,16 @@ main {
         h4 {
             @extend %Lora;
         }
-        .blog-titles {
+        .blogTitles {
             @extend %Lora;
         }       
 }
 
 footer {
-    .footer-menu {
+    .footerMenu {
         @extend %Open;
     }
-    .footer-menu-p {
+    .footerMenuP {
         @extend %Open;
     }
 }
