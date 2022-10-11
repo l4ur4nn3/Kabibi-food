@@ -139,11 +139,12 @@ footer {
     background-position: center right;
     margin-left: 24px;
     margin-bottom: 12px;
-    margin-right: 12px; }
-    .gridOne .noodles h4 {
-      display: none; }
-    .gridOne .noodles p {
-      display: none; }
+    margin-right: 12px;
+    color: transparent; }
+    .gridOne .noodles:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img1gallerybox.jpg"); }
   .gridOne .sandwiches {
     background-image: url("../../ressources/images/gallery/img2gallerybox.jpg");
     background-repeat: no-repeat;
@@ -151,11 +152,12 @@ footer {
     background-position: center;
     margin-left: 12px;
     margin-bottom: 12px;
-    margin-right: 12px; }
-    .gridOne .sandwiches h4 {
-      display: none; }
-    .gridOne .sandwiches p {
-      display: none; }
+    margin-right: 12px;
+    color: transparent; }
+    .gridOne .sandwiches:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img2gallerybox.jpg"); }
   .gridOne .pizza {
     background-image: url("../../ressources/images/gallery/img3gallerybox.jpg");
     background-repeat: no-repeat;
@@ -163,11 +165,12 @@ footer {
     background-position: center;
     margin-left: 12px;
     margin-right: 24px;
-    margin-bottom: 12px; }
-    .gridOne .pizza h4 {
-      display: none; }
-    .gridOne .pizza p {
-      display: none; }
+    margin-bottom: 12px;
+    color: transparent; }
+    .gridOne .pizza:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img3gallerybox.jpg"); }
 
 .gridTwo {
   display: grid;
@@ -180,11 +183,12 @@ footer {
     background-position: center;
     margin-left: 24px;
     margin-top: 12px;
-    margin-right: 12px; }
-    .gridTwo .uncooked h4 {
-      display: none; }
-    .gridTwo .uncooked p {
-      display: none; }
+    margin-right: 12px;
+    color: transparent; }
+    .gridTwo .uncooked:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img4gallerybox.jpg"); }
   .gridTwo .steak {
     background-image: url("../../ressources/images/gallery/img5gallerybox.jpg");
     background-repeat: no-repeat;
@@ -192,11 +196,12 @@ footer {
     background-position: center;
     margin-top: 12px;
     margin-left: 12px;
-    margin-right: 12px; }
-    .gridTwo .steak h4 {
-      display: none; }
-    .gridTwo .steak p {
-      display: none; }
+    margin-right: 12px;
+    color: transparent; }
+    .gridTwo .steak:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg"); }
   .gridTwo .fries {
     background-image: url("../../ressources/images/gallery/img6gallerybox.jpg");
     background-repeat: no-repeat;
@@ -204,10 +209,11 @@ footer {
     background-position: center;
     margin-top: 12px;
     margin-left: 12px;
-    margin-right: 24px; }
-    .gridTwo .fries h4 {
-      display: none; }
-    .gridTwo .fries p {
-      display: none; }
+    margin-right: 24px;
+    color: transparent; }
+    .gridTwo .fries:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg"); }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,11 +12,11 @@
         margin-left: $margin*2;
         margin-bottom: $margin;
         margin-right: $margin;
-        h4 {
-            display: none;
-        }
-        p {
-            display: none;
+        color: transparent;
+        &:hover {
+            color: $color-white;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img1gallerybox.jpg");
         }
     }
     .sandwiches {
@@ -27,11 +27,11 @@
         margin-left: $margin;
         margin-bottom: $margin;
         margin-right: $margin;
-        h4 {
-            display: none;
-        }
-        p {
-            display: none;
+        color: transparent;
+        &:hover {
+            color: $color-white;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img2gallerybox.jpg");
         }
     }
     .pizza {
@@ -42,11 +42,11 @@
         margin-left: $margin;
         margin-right: $margin*2;
         margin-bottom: $margin;
-        h4 {
-            display: none;
-        }
-        p {
-            display: none;
+        color: transparent;
+        &:hover {
+            color: $color-white;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img3gallerybox.jpg");
         }
     }
 }
@@ -62,11 +62,11 @@
         margin-left: $margin*2;
         margin-top: $margin;
         margin-right: $margin;
-        h4 {
-            display: none;
-        }
-        p {
-            display: none;
+        color: transparent;
+        &:hover {
+            color: $color-white;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img4gallerybox.jpg");
         }
     }
     .steak {
@@ -77,11 +77,11 @@
         margin-top: $margin;
         margin-left: $margin;
         margin-right: $margin;
-        h4 {    
-            display: none;
-        }
-        p {
-            display: none;
+        color: transparent;
+        &:hover {
+            color: $color-white;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg");
         }
     }
     .fries {
@@ -92,11 +92,11 @@
         margin-top: 12px;
         margin-left: 12px;
         margin-right: 24px;
-        h4 {
-            display: none;
-        }
-        p {
-            display: none;
+        color: transparent;
+        &:hover {
+            color: $color-white;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg");
         }
     }
 }
