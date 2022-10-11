@@ -1,52 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-header h1, main ul, main h2, main h3, main h4, main .blogTitles {
-  font-family: 'Lora', serif; }
+main .blogTitles, main h4, main h3, main h2, main ul, header h1 {
+  font-family: "Lora", serif;
+}
 
-header, main, footer .footerMenu, footer .footerMenuP {
-  font-family: 'Open Sans', sans-serif; }
+footer .footerMenuP, footer .footerMenu, main, header {
+  font-family: "Open Sans", sans-serif;
+}
 
 header {
   color: #fff;
-  background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
+  background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
   background-position: center right;
-  height: 750px; }
-  header h1 {
-    background-image: url("../../ressources/images/logo/logo.png");
-    background-repeat: no-repeat;
-    color: transparent; }
-  header em {
-    color: #fff; }
+  height: 750px;
+}
+header h1 {
+  background-image: url("../../ressources/images/logo/logo.png");
+  background-repeat: no-repeat;
+  color: transparent;
+}
+header em {
+  color: #fff;
+}
 
 main .category {
-  background-color: #FAF6F0; }
+  background-color: #FAF6F0;
+}
 main .ourMenu {
-  background-color: #FAF6F0; }
+  background-color: #FAF6F0;
+}
 main .chefs {
   background-color: #0C0C0C;
-  color: #fff; }
+  color: #fff;
+}
 main .blogArticle {
-  background-color: #FAF6F0; }
+  background-color: #FAF6F0;
+}
 
 footer {
   background-color: #0C0C0C;
-  color: #fff; }
+  color: #fff;
+}
 
-.button--gold, .button--white:hover, .button--transparent, .button--white {
+.button--white, .button--transparent, .button--gold, .button--white:hover {
   padding: 1em;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .button--gold, .button--white:hover {
   background-color: #C8A96A;
   border-color: #C8A96A;
-  color: #fff; }
+  color: #fff;
+}
 .button--transparent {
   background-color: transparent;
   border-color: #0C0C0C;
-  color: #0C0C0C; }
+  color: #0C0C0C;
+}
 .button--white {
   background-color: #fff;
   border-color: #0C0C0C;
-  color: #0C0C0C; }
+  color: #0C0C0C;
+}
 
 /*# sourceMappingURL=style.css.map */
