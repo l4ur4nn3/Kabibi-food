@@ -3,7 +3,7 @@
 header h1, main ul, main h2, main h3, main h4, main .blog-titles {
   font-family: 'Lora', serif; }
 
-header, main {
+header, main, footer .footer-menu, footer .footer-menu-p {
   font-family: 'Open Sans', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

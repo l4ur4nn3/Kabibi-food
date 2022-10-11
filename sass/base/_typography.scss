@@ -34,3 +34,12 @@ main {
             @extend %Lora;
         }       
 }
+
+footer {
+    .footer-menu {
+        @extend %Open;
+    }
+    .footer-menu-p {
+        @extend %Open;
+    }
+}

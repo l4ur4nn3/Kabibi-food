@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,yEAAiE;AACjE,8EAAsE;AAE9E,gEAAM;EACF,WAAW,EAAE,aAAa;;AAE9B,YAAM;EACF,WAAW,EAAE,uBAAuB",
+"mappings": "AAAQ,yEAAiE;AACjE,8EAAsE;AAE9E,gEAAM;EACF,WAAW,EAAE,aAAa;;AAE9B,wDAAM;EACF,WAAW,EAAE,uBAAuB",
 "sources": ["../../sass/base/_typography.scss"],
 "names": [],
 "file": "style.css"
