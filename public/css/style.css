@@ -114,7 +114,10 @@ footer {
     background-image: url("../../ressources/images/gallery/img1gallerybox.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center right; }
+    background-position: center right;
+    margin-left: .gridOne .noodles 24px;
+    margin-bottom: 12px;
+    margin-right: 12px; }
     .gridOne .noodles h4 {
       display: none; }
     .gridOne .noodles p {
@@ -123,7 +126,10 @@ footer {
     background-image: url("../../ressources/images/gallery/img2gallerybox.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px; }
     .gridOne .sandwiches h4 {
       display: none; }
     .gridOne .sandwiches p {
@@ -132,7 +138,10 @@ footer {
     background-image: url("../../ressources/images/gallery/img3gallerybox.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    margin-left: 12px;
+    margin-right: 24px;
+    margin-bottom: 12px; }
     .gridOne .pizza h4 {
       display: none; }
     .gridOne .pizza p {
@@ -146,7 +155,10 @@ footer {
     background-image: url("../../ressources/images/gallery/img4gallerybox.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    margin-left: 24px;
+    margin-top: 12px;
+    margin-right: 12px; }
     .gridTwo .uncooked h4 {
       display: none; }
     .gridTwo .uncooked p {
@@ -155,7 +167,10 @@ footer {
     background-image: url("../../ressources/images/gallery/img5gallerybox.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px; }
     .gridTwo .steak h4 {
       display: none; }
     .gridTwo .steak p {
@@ -164,7 +179,10 @@ footer {
     background-image: url("../../ressources/images/gallery/img6gallerybox.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 24px; }
     .gridTwo .fries h4 {
       display: none; }
     .gridTwo .fries p {

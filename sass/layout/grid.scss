@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .gridOne {
     display: grid;
     grid-template-columns: 50% 25% 25%;
@@ -7,6 +9,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center right;
+        margin-left: &$margin*2;
+        margin-bottom: $margin;
+        margin-right: $margin;
         h4 {
             display: none;
         }
@@ -19,6 +24,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin-left: $margin;
+        margin-bottom: $margin;
+        margin-right: $margin;
         h4 {
             display: none;
         }
@@ -31,6 +39,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin-left: $margin;
+        margin-right: $margin*2;
+        margin-bottom: $margin;
         h4 {
             display: none;
         }
@@ -48,6 +59,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin-left: $margin*2;
+        margin-top: $margin;
+        margin-right: $margin;
         h4 {
             display: none;
         }
@@ -60,7 +74,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        h4 {
+        margin-top: $margin;
+        margin-left: $margin;
+        margin-right: $margin;
+        h4 {    
             display: none;
         }
         p {
@@ -72,6 +89,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin-top: 12px;
+        margin-left: 12px;
+        margin-right: 24px;
         h4 {
             display: none;
         }
