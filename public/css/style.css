@@ -161,6 +161,9 @@ footer {
 .slide__item--menu:hover {
   color: #C8A96A;
 }
+.slide__item--brands {
+  background-color: transparent;
+}
 .slide--menu {
   display: flex;
   flex-direction: row;
