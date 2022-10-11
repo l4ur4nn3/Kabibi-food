@@ -69,8 +69,8 @@ footer .footerMenuP, footer .footerMenu, main, header {
 }
 .button--transparent {
   background-color: transparent;
-  border-color: #0C0C0C;
-  color: #0C0C0C;
+  border-color: #353A3D;
+  color: #fff;
 }
 .button--white {
   background-color: #fff;
@@ -83,12 +83,8 @@ header {
   background-position: center right;
   height: 750px;
 }
-header h1 {
-  background-image: url("../../ressources/images/logo/logo.png");
-  background-repeat: no-repeat;
-  color: transparent;
-}
-header em {
+
+em {
   color: #fff;
 }
 
@@ -114,18 +110,48 @@ footer {
 .slide {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .slide__item {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background-color: #C8A96A;
   width: 15em;
   height: 15em;
   margin: 1em;
+}
+.slide__item--menu {
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.slide__item--menu:hover {
+  color: #C8A96A;
+}
+.slide--menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-one {
+  font-size: 8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  width: 5em;
+}
+
+.tab {
+  margin-left: 20em;
 }
 
 /*# sourceMappingURL=style.css.map */

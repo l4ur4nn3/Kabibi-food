@@ -1,7 +1,7 @@
-@mixin flexbase($direction: row,$item: center, $content: center)
+@mixin flexbase($direction: row, $content: center,$item: center)
 {
     display: flex;
     flex-direction: $direction;
-    align-items: $item;
     justify-content: $content;
+    align-items: $item;
 }
