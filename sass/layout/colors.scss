@@ -10,21 +10,30 @@ header
 em {
     color: $color-white;
 }
-main {
-    .category {
-        background-color: $color-cream;
-    }
-    .ourMenu {
-        background-color: $color-cream;
-    }
-    .chefs {
-        background-color: $color-black;
-        color: $color-white;
-    }
-    .blogArticle {
-        background-color: $color-cream;
-    }
+
+.category {
+    background-color: $color-cream;
+    color: $color-gold;
 }
+.ourMenu {
+    background-color: $color-cream;
+    color: $color-gold;
+}
+.chefs {
+    background-color: $color-black;
+    color: $color-white;
+}
+.blogArticle {
+    background-color: $color-cream;
+    color: $color-gold;
+}
+
+.section-blog
+{
+    background-color: $color-cream;
+    color: $color-gold;
+}
+
 footer {
     background-color: $color-black;
     color: $color-white;
