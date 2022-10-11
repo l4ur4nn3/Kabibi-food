@@ -1,4 +1,7 @@
-@mixin Name($var) 
+@mixin flexbase($direction: row,$item: center, $content: center)
 {
-    
+    display: flex;
+    flex-direction: $direction;
+    align-items: $item;
+    justify-content: $content;
 }
