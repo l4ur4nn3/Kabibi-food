@@ -1,6 +1,6 @@
 .slide
 {
-    @include flexbase(row);
+    @include flexbase(row,center,center,wrap);
 
     &__item
     {

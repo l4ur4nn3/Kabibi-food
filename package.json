@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/l4ur4nn3/Kabibi-food/issues"
   },
-  "homepage": "https://github.com/l4ur4nn3/Kabibi-food#readme"
+  "homepage": "https://github.com/l4ur4nn3/Kabibi-food#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
 }
