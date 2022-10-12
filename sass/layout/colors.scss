@@ -13,28 +13,56 @@ em {
 
 .category {
     background-color: $color-cream;
-    color: $color-gold;
+    > .title-two
+    {
+        color: $color-gold;
+    }
+    
+    
 }
 .ourMenu {
     background-color: $color-cream;
-    color: $color-gold;
+    > .title-two
+    {
+        color: $color-gold;
+    }
+    
 }
 .chefs {
     background-color: $color-black;
-    color: $color-white;
+    > .title-two
+    {
+        color: $color-white;
+    }
+    > .block-title
+    {
+        color: $color-white;
+    }
+    
 }
 .blogArticle {
     background-color: $color-cream;
-    color: $color-gold;
+    > .title-two
+    {
+        color: $color-gold;
+    }
+    
 }
 
 .section-blog
 {
-    background-color: $color-cream;
-    color: $color-gold;
+    background-color: $color-white;
+
+    > .title-two
+    {
+        color: $color-gold;
+    }
+    
 }
 
 footer {
     background-color: $color-black;
-    color: $color-white;
+
+        color: $color-white;
+    
 }

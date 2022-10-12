@@ -18,127 +18,171 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
-header .title-one, main ul, main h2, main h3, main h4, main .blogTitles {
-  font-family: 'Lora', serif; }
+main .blogTitles, main h4, main h3, main h2, main ul, header .title-one {
+  font-family: "Lora", serif;
+}
 
-header, main, footer .footerMenu, footer .footerMenuP {
-  font-family: 'Open Sans', sans-serif; }
+footer .footerMenuP, footer .footerMenu, main, header {
+  font-family: "Open Sans", sans-serif;
+}
 
 header .title-one {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 main h2 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 main h3 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 main .slide__item p {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 main .slide__item .blogTitles {
-  text-transform: capitalize; }
+  text-transform: capitalize;
+}
 
-.button--gold, .button--white:hover, .button--transparent, .button--white {
+.button--white, .button--transparent, .button--gold, .button--white:hover {
   padding: 1em;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .button--gold, .button--white:hover {
   background-color: #C8A96A;
   border-color: #C8A96A;
-  color: #fff; }
+  color: #fff;
+}
 .button--transparent {
   background-color: transparent;
   border-color: #353A3D;
-  color: #fff; }
+  color: #fff;
+}
 .button--white {
   background-color: #fff;
   border-color: #0C0C0C;
-  color: #0C0C0C; }
-
+  color: #0C0C0C;
+}
 header {
   color: #fff;
-  background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
+  background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
   background-position: center right;
-  height: 750px; }
+  height: 750px;
+}
 
 em {
-  color: #fff; }
+  color: #fff;
+}
 
 .category {
   background-color: #FAF6F0;
-  color: #C8A96A; }
+}
+.category > .title-two {
+  color: #C8A96A;
+}
 
 .ourMenu {
   background-color: #FAF6F0;
-  color: #C8A96A; }
+}
+.ourMenu > .title-two {
+  color: #C8A96A;
+}
 
 .chefs {
   background-color: #0C0C0C;
-  color: #fff; }
+}
+.chefs > .title-two {
+  color: #fff;
+}
+.chefs > .block-title {
+  color: #fff;
+}
 
 .blogArticle {
   background-color: #FAF6F0;
-  color: #C8A96A; }
+}
+.blogArticle > .title-two {
+  color: #C8A96A;
+}
 
 .section-blog {
-  background-color: #FAF6F0;
-  color: #C8A96A; }
+  background-color: #fff;
+}
+.section-blog > .title-two {
+  color: #C8A96A;
+}
 
 footer {
   background-color: #0C0C0C;
-  color: #fff; }
+  color: #fff;
+}
 
 .slide {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; }
-  .slide__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #C8A96A;
-    width: 15em;
-    height: 15em;
-    margin: 1em; }
-    .slide__item--menu {
-      margin: 1em;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center; }
-      .slide__item--menu:hover {
-        color: #C8A96A; }
-    .slide__item--brands {
-      background-color: transparent; }
-  .slide--menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
+  align-items: center;
+}
+.slide__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8A96A;
+  width: 15em;
+  height: 15em;
+  margin: 1em;
+}
+.slide__item--menu {
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.slide__item--menu:hover {
+  color: #C8A96A;
+}
+.slide__item--brands {
+  background-color: transparent;
+}
+.slide--menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .title-one {
   font-size: 8rem;
@@ -147,19 +191,47 @@ footer {
   margin-bottom: 1.5rem;
   margin-top: 0.5em;
   margin-left: 1.5em;
-  width: 5em; }
+  width: 5em;
+}
 
 .title-two {
   font-size: 10rem;
   font-weight: 400;
   line-height: 1.2;
   width: 8em;
-  opacity: 0.1; }
+  opacity: 0.1;
+}
+
+.block-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -13em;
+}
+.block-title__h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  position: relative;
+}
+.block-title__sub {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  padding-left: 6em;
+}
 
 .tab {
-  margin-left: 20em; }
+  margin-left: 20em;
+}
 
-.grid .noodles, .grid .sandwiches, .grid .pizza, .grid .uncooked, .grid .steak, .grid .fries {
+.grid .fries, .grid .steak, .grid .uncooked, .grid .pizza, .grid .sandwiches, .grid .noodles {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -167,10 +239,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
-  .grid .noodles:hover, .grid .sandwiches:hover, .grid .pizza:hover, .grid .uncooked:hover, .grid .steak:hover, .grid .fries:hover {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5); }
+  align-items: center;
+}
+.grid .fries:hover, .grid .steak:hover, .grid .uncooked:hover, .grid .pizza:hover, .grid .sandwiches:hover, .grid .noodles:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .grid {
   display: grid;
@@ -178,36 +252,49 @@ footer {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  height: 750px; }
-  .grid .noodles {
-    grid-area: 1 / 1 / 2 / 3;
-    background-image: url("../../ressources/images/gallery/img1gallerybox.jpg"); }
-    .grid .noodles:hover {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img1gallerybox.jpg"); }
-  .grid .sandwiches {
-    grid-area: 1 / 3 / 2 / 4;
-    background-image: url("../../ressources/images/gallery/img2gallerybox.jpg"); }
-    .grid .sandwiches:hover {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img2gallerybox.jpg"); }
-  .grid .pizza {
-    grid-area: 1 / 4 / 2 / 5;
-    background-image: url("../../ressources/images/gallery/img3gallerybox.jpg"); }
-    .grid .pizza:hover {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img3gallerybox.jpg"); }
-  .grid .uncooked {
-    grid-area: 2 / 1 / 3 / 2;
-    background-image: url("../../ressources/images/gallery/img4gallerybox.jpg"); }
-    .grid .uncooked:hover {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img4gallerybox.jpg"); }
-  .grid .steak {
-    grid-area: 2 / 2 / 3 / 3;
-    background-image: url("../../ressources/images/gallery/img5gallerybox.jpg"); }
-    .grid .steak:hover {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg"); }
-  .grid .fries {
-    grid-area: 2 / 3 / 3 / 5;
-    background-image: url("../../ressources/images/gallery/img6gallerybox.jpg"); }
-    .grid .fries:hover {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg"); }
+  height: 750px;
+}
+.grid .noodles {
+  grid-area: 1/1/2/3;
+  background-image: url("../../ressources/images/gallery/img1gallerybox.jpg");
+}
+.grid .noodles:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img1gallerybox.jpg");
+}
+.grid .sandwiches {
+  grid-area: 1/3/2/4;
+  background-image: url("../../ressources/images/gallery/img2gallerybox.jpg");
+}
+.grid .sandwiches:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img2gallerybox.jpg");
+}
+.grid .pizza {
+  grid-area: 1/4/2/5;
+  background-image: url("../../ressources/images/gallery/img3gallerybox.jpg");
+}
+.grid .pizza:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img3gallerybox.jpg");
+}
+.grid .uncooked {
+  grid-area: 2/1/3/2;
+  background-image: url("../../ressources/images/gallery/img4gallerybox.jpg");
+}
+.grid .uncooked:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img4gallerybox.jpg");
+}
+.grid .steak {
+  grid-area: 2/2/3/3;
+  background-image: url("../../ressources/images/gallery/img5gallerybox.jpg");
+}
+.grid .steak:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg");
+}
+.grid .fries {
+  grid-area: 2/3/3/5;
+  background-image: url("../../ressources/images/gallery/img6gallerybox.jpg");
+}
+.grid .fries:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg");
+}
 
 /*# sourceMappingURL=style.css.map */
