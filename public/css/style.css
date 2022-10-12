@@ -114,6 +114,10 @@ em {
 
 .ourMenu {
   background-color: #FAF6F0;
+  background-image: url("../../ressources/images/our-menu/imgbg-our-menu.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 33%;
 }
 .ourMenu > .title-two {
   color: #C8A96A;
@@ -153,12 +157,14 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .slide__item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: none;
   background-color: #C8A96A;
   width: 15em;
   height: 15em;
@@ -170,6 +176,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: none;
 }
 .slide__item--menu:hover {
   color: #C8A96A;
@@ -182,6 +189,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: none;
 }
 
 .title-one {
@@ -195,10 +203,9 @@ footer {
 }
 
 .title-two {
-  font-size: 10rem;
+  font-size: 16rem;
   font-weight: 400;
   line-height: 1.2;
-  width: 8em;
   opacity: 0.1;
 }
 
@@ -207,24 +214,29 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: none;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5em;
+  margin-left: 6em;
   position: relative;
-  top: -13em;
+  top: -6em;
 }
 .block-title__h3 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   margin-top: 0.5em;
-  margin-left: 1.5em;
-  position: relative;
 }
 .block-title__sub {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 1.5rem;
-  padding-left: 6em;
+  margin-top: 0.5em;
 }
 
 .tab {
@@ -240,6 +252,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: none;
 }
 .grid .fries:hover, .grid .steak:hover, .grid .uncooked:hover, .grid .pizza:hover, .grid .sandwiches:hover, .grid .noodles:hover {
   color: #fff;

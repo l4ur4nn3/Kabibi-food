@@ -22,6 +22,10 @@ em {
 }
 .ourMenu {
     background-color: $color-cream;
+    background-image: url("../../ressources/images/our-menu/imgbg-our-menu.jpg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:33%;
     > .title-two
     {
         color: $color-gold;
