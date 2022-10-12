@@ -1,101 +1,69 @@
 @import "../utils/variables";
 
-.gridOne {
+%gallery-images {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    @include flexbase (column);
+    &:hover {
+        color: $color-white;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.grid {
     display: grid;
-    grid-template-columns: 50% 25% 25%;
-    height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    height: 750px;
     .noodles {
+        grid-area: 1 / 1 / 2 / 3;
         background-image: url("../../ressources/images/gallery/img1gallerybox.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center right;
-        margin-left: $margin*2;
-        margin-bottom: $margin;
-        margin-right: $margin;
-        color: transparent;
+        @extend %gallery-images;
         &:hover {
-            color: $color-white;
-            background-color: rgba(0, 0, 0, 0.5);
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img1gallerybox.jpg");
         }
     }
-    .sandwiches {
+    .sandwiches { 
+        grid-area: 1 / 3 / 2 / 4;
         background-image: url("../../ressources/images/gallery/img2gallerybox.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-left: $margin;
-        margin-bottom: $margin;
-        margin-right: $margin;
-        color: transparent;
+        @extend %gallery-images;
         &:hover {
-            color: $color-white;
-            background-color: rgba(0, 0, 0, 0.5);
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img2gallerybox.jpg");
         }
     }
-    .pizza {
+    .pizza { 
+        grid-area: 1 / 4 / 2 / 5;
         background-image: url("../../ressources/images/gallery/img3gallerybox.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-left: $margin;
-        margin-right: $margin*2;
-        margin-bottom: $margin;
-        color: transparent;
+        @extend %gallery-images;
         &:hover {
-            color: $color-white;
-            background-color: rgba(0, 0, 0, 0.5);
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img3gallerybox.jpg");
         }
     }
-}
-.gridTwo {
-    display: grid;
-    grid-template-columns: 25% 25% 50%;
-    height: 400px;
-    .uncooked {
+    .uncooked { 
+        grid-area: 2 / 1 / 3 / 2; 
         background-image: url("../../ressources/images/gallery/img4gallerybox.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-left: $margin*2;
-        margin-top: $margin;
-        margin-right: $margin;
-        color: transparent;
+        @extend %gallery-images;
         &:hover {
-            color: $color-white;
-            background-color: rgba(0, 0, 0, 0.5);
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img4gallerybox.jpg");
         }
     }
-    .steak {
+    .steak { 
+        grid-area: 2 / 2 / 3 / 3; 
         background-image: url("../../ressources/images/gallery/img5gallerybox.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-top: $margin;
-        margin-left: $margin;
-        margin-right: $margin;
-        color: transparent;
+        @extend %gallery-images;
         &:hover {
-            color: $color-white;
-            background-color: rgba(0, 0, 0, 0.5);
-            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg");
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg");;
         }
     }
-    .fries {
+    .fries { 
+        grid-area: 2 / 3 / 3 / 5; 
         background-image: url("../../ressources/images/gallery/img6gallerybox.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-top: 12px;
-        margin-left: 12px;
-        margin-right: 24px;
-        color: transparent;
+        @extend %gallery-images;
         &:hover {
-            color: $color-white;
-            background-color: rgba(0, 0, 0, 0.5);
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg");
         }
     }
