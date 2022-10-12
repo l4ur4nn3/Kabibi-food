@@ -1,11 +1,25 @@
 //util
 @import "./utils/_variables.scss";
+@import "./utils/_functions.scss";
+@import "./utils/_mixins.scss";
+@import "./utils/_placeholders.scss";
+
+//vendors
 
 //base
+@import "./base/_reset.scss";
 @import "./base/typography.scss";
-
-//layout
-@import "./layout/colors.scss";
 
 //components
 @import "./composants/buttons.scss";
+
+//layout
+@import "./layout/colors.scss";
+@import "./layout/liste.scss";
+@import "./layout/titles.scss";
+@import "./layout/position.scss";
+@import "./layout/grid.scss";
+
+//pages
+
+//themes

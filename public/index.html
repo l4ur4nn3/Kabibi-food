@@ -5,217 +5,311 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d74732e987.js" crossorigin="anonymous"></script>
     <title>Kabibi</title>
 </head>
 <body>
     <header>
-        <h1>Kababi</h1>
-        <nav>
-            <ul>
-                <li>Home <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
-                <li>About <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
-                <li>Page <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
-                <li>Shop <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
-                <li>Contact <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
+        
+        <nav class="slide--menu">
+            <img src="../ressources/images/logo/logo.png" alt="">
+            
+            <ul class="slide">
+                <li class="slide__item--menu">Home <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
+                <li class="slide__item--menu">About <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
+                <li class="slide__item--menu">Page <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
+                <li class="slide__item--menu">Shop <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
+                <li class="slide__item--menu">Contact <i class="fa-sharp fa-solid fa-chevron-down"></i></li>
             </ul>
-            <p><i class="fa-solid fa-phone-flip"></i> +012 (345) 6789</p>
-            <button class="button--gold">Book a table</button>
+            <div class="slide">
+                <p class="slide__item--menu"><i class="fa-solid fa-phone-flip"></i> +012 (345) 6789</p>
+                <button class="button--gold slide__item--menu">Book a table</button>
+            </div>
+            
         </nav>
-        <em>Best quality foods</em>
-        <button class="button--transparent">Explore our menu</button>
+        <h1 class="title-one">Best quality foods</h1>
+        <button class="button--transparent tab">Explore our menu</button>
     </header>
     <main>
         <section class="category">
-            <h2>
+            <h2 class="title-two">
                 Category
             </h2>
-            <div>
-                <h3>
+            <div class="block-title">
+                <h3 class="block-title__h3">
                     Choose your best category
                 </h3>
-                <p>
+                <p class="block-title__sub">
                     Best foods for you & family
                 </p>
             </div>
             <nav>
-                <ul>
-                    <li>Cheeseburger</li>
-                    <li>Pizza slice</li>
-                    <li>Coffee-cup</li>
-                    <li>Chicken-leg</li>
-                    <li>Energy drink</li>
-                    <li>Shrimp</li>
+                <ul class="slide">
+                    <li class="slide__item">Cheeseburger</li>
+                    <li class="slide__item">Pizza slice</li>
+                    <li class="slide__item">Coffee-cup</li>
+                    <li class="slide__item">Chicken-leg</li>
+                    <li class="slide__item">Energy drink</li>
+                    <li class="slide__item">Shrimp</li>
                 </ul>
             </nav>
         </section>
         <section>
-            <h2>
+            <h2 class="title-two">
                 About us
             </h2>
-            <div>
-                <h3>
+            <div class="block-title">
+                <h3 class="block-title__h3">
                     Why choose us
                 </h3>
-                <p>
+                <p class="block-title__sub">
                     Best foods for you & family
                 </p>
             </div>
             <article>
-                <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quiluptas
-                </p>
-                <button class="button--gold">
-                    Discover more
-                </button>
+                <div class="slide">
+                    <img src="../ressources/images/about-us/img_aboutus_home1.jpg" alt="" class="slide__item">
+                    <div class="slide__item">
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quiluptas
+                        </p>
+                        <button class="button--gold">
+                            Discover more
+                        </button>
+                    </div>
+                </div>
             </article>
         </section>
         <section class="ourMenu">
-            <h2>
+            <h2 class="title-two">
                 Our menu
             </h2>
-            <div>
-                <h3>
+            <div class="block-title">
+                <h3 class="block-title__h3">
                     Try our special offers
                 </h3>
-                <p>
+                <p class="block-title__sub">
                     Best foods for you & family
                 </p>
-                <div>
-                    <h4>
-                        Raw scallops from erquy
-                    </h4>
-                    <p>Candied Jerusalem artichokes, truffle</p>
-                    <p>$89</p>
-                </div>
-                <div>
-                    <h4>
-                        Celeriac and Truffle Ravioli
-                    </h4>
-                    <p>Roasted langoustine, consommé</p>
-                    <p>$89</p>
-                </div>
-                <div>
-                    <h4>
-                        Cod Filet Cooked on One Side
-                    </h4>
-                    <p>Chorizo, chickpea espuma, pequillos</p>
-                    <p>$89</p>
-                </div>
-                <div>
-                    <h4>
-                        Sea Bass Ceviche
-                    </h4>
-                    <p>Avocado, butternut, lime</p>
-                    <p>$89</p>
-                </div>
-                <div>
-                    <h4>
-                        Corrèze Pan-seared Veal Liver
-                    </h4>
-                    <p>Olive oil mashed potato, onion jus</p>
-                    <p>$89</p>
-                </div>
-                <div>
-                    <h4>
-                        Grilled Veal Filet Mignon
-                    </h4>
-                    <p>Pumpkin, endives with hazelnuts</p>
-                    <p>$89</p>
-                </div>
-                <div>
-                    <h4>
-                        Tender Octopus and Fennel
-                    </h4>
-                    <p>Citrus, wild rocket condiment</p>
-                    <p>$89</p>
-                </div>
-                <div>
-                    <h4>
-                        Viennese Veal Cutlet
-                    </h4>
-                    <p>Ricotta and spinach gnocchi, Caccio de Pepe</p>
-                    <p>$89</p>
+                <div class="slide">
+                    <div class="slide__item">
+                        <h4>
+                            Raw scallops from erquy
+                        </h4>
+                        <p>Candied Jerusalem artichokes, truffle</p>
+                        <p>$89</p>
+                    </div>
+                    <div class="slide__item">
+                        <h4>
+                            Celeriac and Truffle Ravioli
+                        </h4>
+                        <p>Roasted langoustine, consommé</p>
+                        <p>$89</p>
+                    </div>
+                    <div class="slide__item">
+                        <h4>
+                            Cod Filet Cooked on One Side
+                        </h4>
+                        <p>Chorizo, chickpea espuma, pequillos</p>
+                        <p>$89</p>
+                    </div>
+                    <div class="slide__item">
+                        <h4>
+                            Sea Bass Ceviche
+                        </h4>
+                        <p>Avocado, butternut, lime</p>
+                        <p>$89</p>
+                    </div>
+                    <div class="slide__item">
+                        <h4>
+                            Corrèze Pan-seared Veal Liver
+                        </h4>
+                        <p>Olive oil mashed potato, onion jus</p>
+                        <p>$89</p>
+                    </div>
+                    <div class="slide__item">
+                        <h4>
+                            Grilled Veal Filet Mignon
+                        </h4>
+                        <p>Pumpkin, endives with hazelnuts</p>
+                        <p>$89</p>
+                    </div>
+                    <div class="slide__item">
+                        <h4>
+                            Tender Octopus and Fennel
+                        </h4>
+                        <p>Citrus, wild rocket condiment</p>
+                        <p>$89</p>
+                    </div>
+                    <div class="slide__item">
+                        <h4>
+                            Viennese Veal Cutlet
+                        </h4>
+                        <p>Ricotta and spinach gnocchi, Caccio de Pepe</p>
+                        <p>$89</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
-            <h2>Gallery</h2>
-            <div>
-                <h3>
+            <h2 class="title-two">Gallery</h2>
+            <div class="block-title">
+                <h3 class="block-title__h3">
                     Restaurants photo gallery
                 </h3>
-                <p>Best foods for you & family</p>
+                <p class="block-title__sub">Best foods for you & family</p>
+            </div>
+            <div class="grid">
+                    <div class="noodles">
+                        <div class="arrow">→</div>
+                        <div class="centered-text">
+                            <h4>
+                                Family Package Dish
+                            </h4>
+                            <p>
+                                Popular Food Package
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sandwiches">
+                        <div class="arrow">→</div>
+                        <div class="centered-text">
+                            <h4>
+                                French Package Dish
+                            </h4>
+                            <p>
+                                Oui oui baguette
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pizza">
+                        <div class="arrow">→</div>
+                        <div class="centered-text">
+                            <h4>
+                                Italian Package Dish
+                            </h4>
+                            <p>
+                                Popular Food Package
+                            </p>
+                        </div>
+                    </div>
+                    <div class="uncooked">
+                        <div class="arrow">→</div>
+                        <div class="centered-text">
+                            <h4>
+                                Uncooked Package Dish
+                            </h4>
+                            <p>
+                                Unpopular Food Package
+                            </p>
+                        </div>
+                    </div>
+                    <div class="steak">
+                        <div class="arrow">→</div>
+                        <div class="centered-text">
+                            <h4>
+                                Uncooked Steak
+                            </h4>
+                            <p>
+                                Unpopular Food Package
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fries">
+                        <div class="arrow">→</div>
+                        <div class="centered-text">
+                            <h4>
+                                Belgian Package Dish
+                            </h4>
+                            <p>
+                                Popular Food Package
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <button class="button--transparent">
                 View more photos
             </button>
         </section>
         <section class="chefs">
-            <h2>
+            <h2 class="title-two">
                 Our chefs
             </h2>
-            <div>
-                <h3>
-                    Meet professional chefs
-                </h3>
-                <p>
-                    Best foods for you & family
-                </p>
+            <div class="block-title">
+                <h3 class="block-title__h3">Meet professional chefs </h3>
+                <p class="block-title__sub">Best foods for you & family</p>
+            </div>
+            <div class="slide">
+                <img src="../ressources/images/team/img1team.jpg" alt="" class="slide__item">
+                <img src="../ressources/images/team/img2team.jpg" alt="" class="slide__item">
+                <img src="../ressources/images/team/img3team.jpg" alt="" class="slide__item">
+                <img src="../ressources/images/team/img4team.jpg" alt="" class="slide__item">
             </div>
         </section>
-        <section>
-            <h2>
+        <section class="section-blog">
+            <h2 class="title-two">
                 Our blog
             </h2>
-            <div>
-                <h3>Latest news & blog</h3>
-                <p>Best foods for you & family</p>
+            <div class="block-title">
+                <h3 class="block-title__h3">Latest news & blog</h3>
+                <p class="block-title__sub">Best foods for you & family</p>
             </div>
-            <div class="blogArticle">
-            <div>
-                <p>By Williamson</p>
-            </div>
-            <div>
-                <p>25 aug 2021</p>
-            </div>
-            <p class="blogTitles">How To Run A UX Audit For Major EdTech Platform Case Study</p>
-            <button class="button--white">
-                Read more
-            </button>
-            </div>
-            <div class="blogArticle">
-                <div>
-                <p>By Williamson</p>
+            <div class="slide">
+                <div class="slide__item">
+                    <div>
+                        <p>By Williamson</p>
+                    </div>
+                    <div>
+                        <p>25 aug 2021</p>
+                    </div>
+                    <p class="blogTitles">How To Run A UX Audit For Major EdTech Platform Case Study</p>
+                    <button class="button--white">
+                        Read more
+                    </button>
                 </div>
-                <div>
-                <p>25 aug 2021</p>
+                <div class="slide__item">
+                    <div>
+                    <p>By Williamson</p>
+                    </div>
+                    <div>
+                    <p>25 aug 2021</p>
+                    </div>
+                    <p class="blogTitles">How To Run A UX Audit For Major EdTech Platform Case Study</p>
+                    <button class="button--white">
+                    Read more
+                    </button>
                 </div>
-                <p class="blogTitles">How To Run A UX Audit For Major EdTech Platform Case Study</p>
-                <button class="button--white">
-                Read more
-                </button>
+                <div class="slide__item">
+                    <div>
+                    <p>By Williamson</p>
+                    </div>
+                    <div>
+                    <p>25 aug 2021</p>
+                    </div>
+                    <p class="blogTitles">Designing With Code A Modern Approach To Development</p>
+                    <button class="button--white">
+                    Read more
+                    </button>
+                </div>
             </div>
-            <div class="blogArticle">
-                <div>
-                <p>By Williamson</p>
-                </div>
-                <div>
-                <p>25 aug 2021</p>
-                </div>
-                <p class="blogTitles">Designing With Code A Modern Approach To Development</p>
-                <button class="button--white">
-                Read more
-                </button>
+            <div class="slide">
+                <img src="../ressources/images/brand/imgbrand1.png" alt="" class="slide__item--brands">
+                <img src="../ressources/images/brand/imgbrand2.png" alt="" class="slide__item--brands">
+                <img src="../ressources/images/brand/imgbrand3.png" alt="" class="slide__item--brands">
+                <img src="../ressources/images/brand/imgbrand4.png" alt="" class="slide__item--brands">
+                <img src="../ressources/images/brand/imgbrand5.png" alt="" class="slide__item--brands">
+                <img src="../ressources/images/brand/imgbrand6.png" alt="" class="slide__item--brands">
             </div>
         </section>
     </main>
     <footer>
         <div>
             <img src="" alt="">
-            <h2></h2>
+            <h2 class="title-two"></h2>
         </div>
-        <div>
-            <ul>
+        <div class="slide">
+            <ul class="slide__item">
                 <li>About</li>
                 <li><a href="#" class="footerMenu">Home</a></li>
                 <li><a href="#" class="footerMenu">Our Story</a></li>
@@ -223,9 +317,7 @@
                 <li><a href="#" class="footerMenu">The suites</a></li>
                 <li><a href="#" class="footerMenu">Food Lists</a></li>
             </ul>
-        </div>
-        <div>
-            <ul>
+            <ul class="slide__item">
                 <li>Facilities</li>
                 <li><a href="#" class="footerMenu">The Fontus Spa</a></li>
                 <li><a href="#" class="footerMenu">Experiences</a></li>
@@ -233,22 +325,20 @@
                 <li><a href="#" class="footerMenu">Gallery, Events</a></li>
                 <li><a href="#" class="footerMenu">Special Offers</a></li>
             </ul>
-        </div>
-        <div>
-            <h3>Newsletters</h3>
-            <p class="footerMenuP">Dolor sit amet consecteur adipiscing elit sed do eiusmod tempor incididunt labore et dolore</p>
-            <div>
-                <input type="text" name="" id="">
-                <input type="button" value="" class="button--gold">
+            <div class="slide__item">
+                <h3>Newsletters</h3>
+                <p class="footerMenuP">Dolor sit amet consecteur adipiscing elit sed do eiusmod tempor incididunt labore et dolore</p>
+                <div>
+                    <input type="text" name="" id="">
+                    <input type="button" value="" class="button--gold">
+                </div>
             </div>
-        </div>
-        <div>
-            <ul>
+            <ul class="slide__item">
                 <li>Contact</li>
-                <li class="footerMenu">56 Main Street, D-Block,2nd Floor, Melbourne, Australia</li>
-                <li class="footerMenu">support@gmail.com</li>
-                <li class="footerMenu">+012 (345) 67 899</li>
-                <li class="footerMenu">08 am - 06 pm</li>
+                <li class="footerMenu"><i class="fa-solid fa-location-dot"></i> 56 Main Street, D-Block,2nd Floor, Melbourne, Australia</li>
+                <li class="footerMenu"><i class="fa-solid fa-envelope"></i> support@gmail.com</li>
+                <li class="footerMenu"><i class="fa-solid fa-phone-flip"></i> +012 (345) 67 899</li>
+                <li class="footerMenu"><i class="fa-solid fa-clock"></i> 08 am - 06 pm</li>
             </ul>
         </div>
         <hr>
@@ -256,11 +346,11 @@
         <p class="footerMenuP">Copyright c 2021 The Kababi - Restaurant HTML Template. Designed by <a href="#">Themesflat</a></p>
     
         <div>
-            <ul>
-                <li><a href="">facebook</a></li>
-                <li><a href="">tweter</a></li>
-                <li><a href="">youtube</a></li>
-                <li><a href="">linkedin</a></li>
+            <ul class="slide">
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </div>
     </footer>

@@ -1,0 +1,33 @@
+.slide
+{
+    @include flexbase(row,center,center,wrap);
+
+    &__item
+    {
+        @include flexbase(column);
+        background-color: $color-gold;
+        width: 15em;
+        height: 15em;
+        margin: 1em;
+
+        &--menu
+        {
+            margin: 1em;
+            @include flexbase(row);
+
+            &:hover
+            {
+                color: $color-gold;
+            }
+        }
+        &--brands {
+            background-color: transparent;
+        }
+    }
+
+    &--menu
+    {
+        @include flexbase(row,space-around);
+
+    }
+}
