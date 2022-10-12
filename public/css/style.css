@@ -107,26 +107,39 @@ em {
 
 .category {
   background-color: #FAF6F0;
+}
+.category > .title-two {
   color: #C8A96A;
 }
 
 .ourMenu {
   background-color: #FAF6F0;
+}
+.ourMenu > .title-two {
   color: #C8A96A;
 }
 
 .chefs {
   background-color: #0C0C0C;
+}
+.chefs > .title-two {
+  color: #fff;
+}
+.chefs > .block-title {
   color: #fff;
 }
 
 .blogArticle {
   background-color: #FAF6F0;
+}
+.blogArticle > .title-two {
   color: #C8A96A;
 }
 
 .section-blog {
-  background-color: #FAF6F0;
+  background-color: #fff;
+}
+.section-blog > .title-two {
   color: #C8A96A;
 }
 
@@ -187,6 +200,31 @@ footer {
   line-height: 1.2;
   width: 8em;
   opacity: 0.1;
+}
+
+.block-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -13em;
+}
+.block-title__h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  position: relative;
+}
+.block-title__sub {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  padding-left: 6em;
 }
 
 .tab {
