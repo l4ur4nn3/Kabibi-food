@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("../utils/_variables.scss");
 
 %Lora {
     font-family: 'Lora', serif;
@@ -14,43 +15,73 @@ header {
         @extend %Lora;
         text-transform: uppercase;
     }
+    .slide__item--menu{
+        font-size: $small-text;
+    }
+    .button--transparent{
+        font-size: $small-text;
+    }
 }
 
 main {
-        @extend %Open;
-        ul {
-            @extend %Lora;
-        }
-        h2 {
-            @extend %Lora;
-            text-transform: uppercase;
-        }
-        
-        h3 {
-            @extend %Lora;
-            text-transform: uppercase;
-        }
-        h4 {
-            @extend %Lora;
-        }
+    @extend %Open;
+    ul {
+        @extend %Lora;
+    }
+    h2 {
+        @extend %Lora;
+        text-transform: uppercase;
+    }
+    h3 {
+        @extend %Lora;
+        text-transform: uppercase;
+    }
+    h4 {
+        @extend %Lora;
+    }
+    .blogTitles {
+        @extend %Lora;
+    }       
+    .slide__item {
         .blogTitles {
-            @extend %Lora;
-        }       
-        .slide__item {
-            p {
-                text-transform: uppercase;
-            }
-            .blogTitles {
-            text-transform: capitalize;
-            }
+        text-transform: capitalize;
         }
     }
-
+    .block-title__sub {
+        font-size: $small-text;
+    }
+    .button--gold {
+        font-size: $small-text;
+    }
+    .menu-description {
+        font-size: $small-text;
+    }
+    .centered-text {
+        p {
+            font-size: $small-text;
+        }
+    }
+    .button--transparent--black {
+        font-size: $small-text;
+    }
+    .date {
+        font-size: $small-text;
+    }
+    .author {
+        font-size: $small-text;
+    }
+    .button--white {
+        font-size: $small-text;
+    }
+}
 footer {
     .footerMenu {
         @extend %Open;
     }
     .footerMenuP {
         @extend %Open;
+    }
+    li {
+        font-size: $small-text;
     }
 }

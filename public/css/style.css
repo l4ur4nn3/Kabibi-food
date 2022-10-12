@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("../utils/_variables.scss");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,6 +61,12 @@ footer .footerMenuP, footer .footerMenu, main, header {
 header .title-one {
   text-transform: uppercase;
 }
+header .slide__item--menu {
+  font-size: 15px;
+}
+header .button--transparent {
+  font-size: 15px;
+}
 
 main h2 {
   text-transform: uppercase;
@@ -67,14 +74,39 @@ main h2 {
 main h3 {
   text-transform: uppercase;
 }
-main .slide__item p {
-  text-transform: uppercase;
-}
 main .slide__item .blogTitles {
   text-transform: capitalize;
 }
+main .block-title__sub {
+  font-size: 15px;
+}
+main .button--gold, main .button--white:hover {
+  font-size: 15px;
+}
+main .menu-description {
+  font-size: 15px;
+}
+main .centered-text p {
+  font-size: 15px;
+}
+main .button--transparent--black {
+  font-size: 15px;
+}
+main .date {
+  font-size: 15px;
+}
+main .author {
+  font-size: 15px;
+}
+main .button--white {
+  font-size: 15px;
+}
 
-.button--white, .button--transparent, .button--gold, .button--white:hover {
+footer li {
+  font-size: 15px;
+}
+
+.button--white, .button--transparent--black, .button--transparent, .button--gold, .button--white:hover {
   padding: 1em;
   border-radius: 10px;
 }
@@ -88,6 +120,11 @@ main .slide__item .blogTitles {
   background-color: transparent;
   border-color: #353A3D;
   color: #fff;
+}
+.button--transparent--black {
+  background-color: transparent;
+  border: #353A3D;
+  color: #353A3D;
 }
 .button--white {
   background-color: #fff;
@@ -311,6 +348,18 @@ footer {
 .grid .fries:hover, .grid .steak:hover, .grid .uncooked:hover, .grid .pizza:hover, .grid .sandwiches:hover, .grid .noodles:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid .fries .arrow, .grid .noodles .arrow {
+  position: relative;
+  top: -125px;
+  right: -400px;
+}
+
+.grid .steak .arrow, .grid .uncooked .arrow, .grid .pizza .arrow, .grid .sandwiches .arrow {
+  position: relative;
+  top: -125px;
+  right: -170px;
 }
 
 .grid {
