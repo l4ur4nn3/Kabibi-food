@@ -59,7 +59,8 @@ header .button--transparent {
 main h2 {
   text-transform: uppercase; }
 main h3 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 50px; }
 main .itemMenu {
   font-size: 20px;
   text-transform: capitalize; }
@@ -67,6 +68,8 @@ main .texteLatin {
   font-size: 20px; }
 main .titrePlats {
   font-size: 20px; }
+main .price {
+  font-size: 50px; }
 main .slide__item {
   font-size: 20px; }
   main .slide__item .blogTitles {
@@ -261,7 +264,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: none;
-  font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -269,7 +271,6 @@ footer {
   position: relative;
   top: -6em; }
   .block-title__h3 {
-    font-size: 3rem;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 0.5rem;

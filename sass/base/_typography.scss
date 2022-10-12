@@ -34,6 +34,7 @@ main {
     h3 {
         @extend %Lora;
         text-transform: uppercase;
+        font-size: $huge-text;
     }
     .itemMenu {
         font-size: $medium-text;
@@ -45,6 +46,9 @@ main {
     }
     .titrePlats {
         font-size: $medium-text;
+    }
+    .price {
+        font-size: $huge-text;
     }
     h4 {
         @extend %Lora;
