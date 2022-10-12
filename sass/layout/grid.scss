@@ -18,7 +18,9 @@
         right: -400px;
 }
 %arrow-position-little-images {
-    
+        position: relative;
+        top: -125px;
+        right: -170px;
 }
 
 .grid {
@@ -46,6 +48,9 @@
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img2gallerybox.jpg");
         }
+        .arrow{
+            @extend %arrow-position-little-images;
+        }
     }
     .pizza { 
         grid-area: 1 / 4 / 2 / 5;
@@ -53,6 +58,9 @@
         @extend %gallery-images;
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img3gallerybox.jpg");
+        }
+        .arrow{
+            @extend %arrow-position-little-images;
         }
     }
     .uncooked { 
@@ -62,6 +70,9 @@
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img4gallerybox.jpg");
         }
+        .arrow{
+            @extend %arrow-position-little-images;
+        }
     }
     .steak { 
         grid-area: 2 / 2 / 3 / 3; 
@@ -69,6 +80,9 @@
         @extend %gallery-images;
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg");;
+        }
+        .arrow{
+            @extend %arrow-position-little-images;
         }
     }
     .fries { 

@@ -206,6 +206,11 @@ footer {
   top: -125px;
   right: -400px; }
 
+.grid .sandwiches .arrow, .grid .pizza .arrow, .grid .uncooked .arrow, .grid .steak .arrow {
+  position: relative;
+  top: -125px;
+  right: -170px; }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
