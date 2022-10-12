@@ -259,6 +259,18 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.grid .fries .arrow, .grid .noodles .arrow {
+  position: relative;
+  top: -125px;
+  right: -400px;
+}
+
+.grid .steak .arrow, .grid .uncooked .arrow, .grid .pizza .arrow, .grid .sandwiches .arrow {
+  position: relative;
+  top: -125px;
+  right: -170px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

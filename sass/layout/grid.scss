@@ -12,12 +12,23 @@
     }
 }
 
+%arrow-position-big-images {
+        position: relative;
+        top: -125px;
+        right: -400px;
+}
+%arrow-position-little-images {
+        position: relative;
+        top: -125px;
+        right: -170px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
+    grid-column-gap: $margin-light;
+    grid-row-gap: $margin-light;
     height: 750px;
     .noodles {
         grid-area: 1 / 1 / 2 / 3;
@@ -25,6 +36,9 @@
         @extend %gallery-images;
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img1gallerybox.jpg");
+        }
+        .arrow{
+            @extend %arrow-position-big-images;
         }
     }
     .sandwiches { 
@@ -34,6 +48,9 @@
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img2gallerybox.jpg");
         }
+        .arrow{
+            @extend %arrow-position-little-images;
+        }
     }
     .pizza { 
         grid-area: 1 / 4 / 2 / 5;
@@ -41,6 +58,9 @@
         @extend %gallery-images;
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img3gallerybox.jpg");
+        }
+        .arrow{
+            @extend %arrow-position-little-images;
         }
     }
     .uncooked { 
@@ -50,6 +70,9 @@
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img4gallerybox.jpg");
         }
+        .arrow{
+            @extend %arrow-position-little-images;
+        }
     }
     .steak { 
         grid-area: 2 / 2 / 3 / 3; 
@@ -58,6 +81,9 @@
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img5gallerybox.jpg");;
         }
+        .arrow{
+            @extend %arrow-position-little-images;
+        }
     }
     .fries { 
         grid-area: 2 / 3 / 3 / 5; 
@@ -65,6 +91,9 @@
         @extend %gallery-images;
         &:hover {
             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg");
+        }
+        .arrow {
+            @extend %arrow-position-big-images;
         }
     }
 }
