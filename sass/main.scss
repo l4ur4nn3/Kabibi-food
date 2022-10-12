@@ -11,7 +11,9 @@
 @import "./base/typography.scss";
 
 //components
-@import "./composants/buttons.scss";
+@import "./composants/_buttons.scss";
+@import "./composants/_ligne.scss";
+@import "./composants/_input.scss";
 
 //layout
 @import "./layout/colors.scss";

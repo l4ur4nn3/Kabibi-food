@@ -2,6 +2,7 @@
 {
     @include flexbase(row,center,center,wrap);
 
+
     &__item
     {
         @include flexbase(column);
@@ -28,6 +29,41 @@
     &--menu
     {
         @include flexbase(row,space-around);
+        width: 100%;
+
+    }
+
+    &__footer
+    {
+        @include flexbase(column,center,center);
+        
+
+        &--menu
+        {
+            @include flexbase(column,center,flex-start);
+            width: 15em;
+            height: 15em;
+            margin: 1em;
+
+            
+            
+            
+            li
+            {
+                margin-top: 1em;
+                a
+                {
+                    color: $color-white;
+                    text-decoration: none;
+                }
+
+                &:first-child
+                {
+                    margin-top: 1em;
+                    font-size: 2em;
+                }
+            }
+        }
 
     }
 }
