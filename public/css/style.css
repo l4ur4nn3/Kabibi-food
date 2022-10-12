@@ -160,6 +160,13 @@ footer .slide__footer--menu {
   opacity: 0.3;
 }
 
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  flex-wrap: none;
+}
 .input__text {
   width: 20em;
 }
@@ -167,8 +174,9 @@ footer .slide__footer--menu {
   background-color: #C8A96A;
   color: #fff;
   border: none;
-  border-radius: 0.5em;
+  border-radius: 0;
   padding: 0.5em;
+  width: 2em;
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
@@ -288,12 +296,12 @@ footer {
 .slide__footer--menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: none;
-  width: 15em;
+  min-width: 10em;
+  max-width: 20em;
   height: 15em;
-  margin: 1em;
 }
 .slide__footer--menu li {
   margin-top: 1em;
