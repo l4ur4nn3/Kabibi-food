@@ -22,7 +22,6 @@ header {
         font-size: $small-text;
     }
 }
-
 main {
     @extend %Open;
     ul {
@@ -36,6 +35,17 @@ main {
         @extend %Lora;
         text-transform: uppercase;
     }
+    .itemMenu {
+        font-size: $medium-text;
+        text-transform: capitalize;
+    }
+    .texteLatin {
+        @extend %Lora;
+        font-size: $medium-text;
+    }
+    .titrePlats {
+        font-size: $medium-text;
+    }
     h4 {
         @extend %Lora;
     }
@@ -46,6 +56,7 @@ main {
         .blogTitles {
         text-transform: capitalize;
         }
+        font-size: $medium-text;
     }
     .block-title__sub {
         font-size: $small-text;
@@ -57,6 +68,9 @@ main {
         font-size: $small-text;
     }
     .centered-text {
+        h4 {
+            font-size: $medium-text;
+        }
         p {
             font-size: $small-text;
         }
@@ -83,5 +97,8 @@ footer {
     }
     li {
         font-size: $small-text;
+    }
+    .slide__footer--menu {
+        font-size: $medium-text;
     }
 }
