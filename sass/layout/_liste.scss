@@ -1,14 +1,13 @@
 .slide
 {
-    @include flexbase(row,center,center,wrap);
+    @include flexbase(row, space-between,wrap);
 
 
     &__item
     {
-        @include flexbase(column, space-between);
+        @include flexbase(column, space-between, flex-start);
         background-color: $color-gold;
-        width: 15em;
-        height: 20em;
+        height: 25em;
         margin: 1em;
 
         &--menu
@@ -78,7 +77,7 @@
 
         &__menu
         {
-            @include flexbase(row,space-around);
+            @include flexbase(row);
             background-color: $color-gold;
             
             margin: 0.5em;
