@@ -208,18 +208,15 @@ footer .slide__footer--menu {
   position: relative;
   top: 32em;
   margin-bottom: 30em;
-  margin-top: -25em;
-}
-.category__pack-img--center {
-  border-radius: 50%;
-  background-color: #fff;
-  padding: 1em;
-}
-.category__pack-img--left {
-  padding: 1em;
-  padding-top: 8em;
-  margin-right: 1em;
-}
+  margin-top: -25em; }
+  .category__pack-img--center {
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 1em; }
+  .category__pack-img--left {
+    padding: 1em;
+    padding-top: 8em;
+    margin-right: 1em; }
 
 header {
   color: #fff;
@@ -442,16 +439,8 @@ footer {
   margin-left: 10%;
   margin-right: 10%; }
 
-.category .slide {
+.grid {
+  margin-right: 10%;
   margin-left: 10%; }
-.category nav {
-  margin-left: 0%; }
-.category .li {
-  margin-left: 0px;
-  margin-right: 10%; }
-.category .slide__item {
-  margin-left: none; }
-.category .itemMenu {
-  margin-left: none; }
 
 /*# sourceMappingURL=style.css.map */
