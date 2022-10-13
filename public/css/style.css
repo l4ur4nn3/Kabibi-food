@@ -307,6 +307,7 @@ em {
 
 .category {
   background-color: #FAF6F0;
+  background-image: url("../../ressources/images/banner/imgbgcategory.jpg");
 }
 .category > .title-two {
   color: #C8A96A;
