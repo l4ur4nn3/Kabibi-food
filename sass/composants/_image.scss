@@ -71,3 +71,29 @@
         }
     }
 }
+
+.category
+{
+    &__pack-img
+    {
+        @include flexbase(row,center,center);
+        position: relative;
+        top: 32em;
+        margin-bottom: 30em;
+        margin-top: -25em;
+        
+        &--center
+        {
+            border-radius: 50%;
+            background-color: $color-white;
+            padding: 1em;
+        }
+
+        &--left
+        {
+            padding: 1em;
+            padding-top: 8em;
+            margin-right: 1em;
+        }
+    }
+}
