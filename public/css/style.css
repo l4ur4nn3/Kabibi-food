@@ -363,6 +363,29 @@ footer {
 .slide__item--brands {
   background-color: transparent;
 }
+.slide__item__categorie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #C8A96A;
+  margin: 1em;
+  padding: 2em 1em;
+  width: 8em;
+  height: 8em;
+  background-color: #fff;
+  color: #C8A96A;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.slide__item__categorie:hover {
+  background-color: #C8A96A;
+  color: #fff;
+}
 .slide--menu {
   display: flex;
   flex-direction: row;
@@ -423,6 +446,8 @@ footer {
   font-weight: 400;
   line-height: 1.2;
   opacity: 0.1;
+  position: relative;
+  left: -10%;
 }
 
 .block-title {
@@ -539,9 +564,9 @@ footer {
   margin-right: 10%;
 }
 
-.grid {
-  margin-right: 10%;
-  margin-left: 10%;
+section {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */

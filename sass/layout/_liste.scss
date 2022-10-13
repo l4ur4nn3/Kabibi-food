@@ -24,6 +24,29 @@
         &--brands {
             background-color: transparent;
         }
+        &__categorie
+        {
+            @include flexbase(column,space-between,center,wrap);
+            background-color: $color-gold;
+            
+            margin: 1em;
+            padding: 2em 1em;
+            width: 8em;
+            height: 8em;
+            background-color: $color-white;
+            color: $color-gold;
+            font-size: 1.5em;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+            transition: all 0.5s ease-in-out;
+
+            &:hover
+            {
+                background-color: $color-gold;
+                color: $color-white;
+            }
+        }
     }
 
     &--menu
