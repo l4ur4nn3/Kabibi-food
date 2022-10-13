@@ -1,0 +1,12 @@
+@import url("../utils/_variables.scss");
+
+.title-one {
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+}
+.category {
+    ul {
+        margin-left: 1.5em;
+        margin-right: $margin-left;
+    }
+}
