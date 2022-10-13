@@ -67,7 +67,7 @@ h3 {
   text-transform: uppercase;
   font-weight: bold; }
 
-.button--gold, .button--white:hover {
+.button--gold {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bold; }
@@ -124,18 +124,22 @@ li {
 .slide__footer--menu {
   font-size: 20px; }
 
-.button--gold, .button--white:hover, .button--transparent, .button--transparent--black, .button--white {
+.button--gold, .button--transparent, .button--transparent--black, .button--white {
   padding: 1em;
   border-radius: 10px; }
 
-.button--gold, .button--white:hover {
+.button--gold {
   background-color: #C8A96A;
   border-color: #C8A96A;
   color: #fff; }
 .button--transparent {
   background-color: transparent;
+  border-style: solid;
   border-color: #353A3D;
   color: #fff; }
+  .button--transparent:hover {
+    color: #C8A96A;
+    background-color: rgba(128, 128, 128, 0.5); }
 .button--transparent--black {
   background-color: transparent;
   border: #353A3D;
@@ -325,6 +329,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
+  .slide .not-gold:hover {
+    color: black; }
   .slide__item {
     display: flex;
     flex-direction: column;
@@ -555,8 +561,14 @@ footer {
   margin-left: 10%;
   margin-right: 10%; }
 
-.about_us_margins .slide {
-  margin-top: -12.5em; }
+.about_us_margins {
+  margin-top: -15em; }
+
+ul.slide {
+  margin: 15px; }
+
+.front-logo {
+  margin: 15px; }
 
 section {
   padding-left: 10%;

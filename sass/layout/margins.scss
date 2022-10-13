@@ -8,11 +8,14 @@
     margin-right: $margin-left;
 }
 .about_us_margins {
-    .slide {
-        margin-top: -12.5em;
+        margin-top: -15em;
     }
+ul.slide {
+    margin: 15px;
 }
-
+.front-logo {
+    margin: 15px;
+}
 section {
     padding-left: $margin-left;
     padding-right: $margin-left;
