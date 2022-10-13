@@ -4,21 +4,26 @@
     margin-left: $margin-left;
     margin-right: $margin-left;
 }
-.category {
-    .slide {
-        margin-left: 10%;
-    }
-    nav {
-        margin-left: 0%;
-    }
-    .li {
-        margin-left: 0px;
-        margin-right: $margin-left;
-    }
-    .slide__item {
-        margin-left: none;
-    }
-    .itemMenu {
-        margin-left: none;
-    }
-    }
+// .category {
+//     .slide {
+//         margin-left: 10%;
+//     }
+//     nav {
+//         margin-left: 0%;
+//     }
+//     .li {
+//         margin-left: 0px;
+//         margin-right: $margin-left;
+//     }
+//     .slide__item {
+//         margin-left: none;
+//     }
+//     .itemMenu {
+//         margin-left: none;
+//     }
+//     }
+
+section {
+    padding-left: $margin-left;
+    padding-right: $margin-left;
+}
