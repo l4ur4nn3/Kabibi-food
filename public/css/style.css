@@ -444,7 +444,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: none;
   background-color: #C8A96A;
   margin: 0.5em;

@@ -79,7 +79,7 @@
 
         &__menu
         {
-            @include flexbase(row,space-around);
+            @include flexbase(row,space-around,center);
             background-color: $color-gold;
             
             margin: 0.5em;
