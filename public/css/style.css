@@ -128,10 +128,16 @@ li {
   padding: 1em;
   border-radius: 10px; }
 
+.gallery {
+  text-align: center; }
+
 .button--gold {
   background-color: #C8A96A;
   border-color: #C8A96A;
   color: #fff; }
+  .button--gold:hover {
+    color: #0C0C0C;
+    cursor: pointer; }
 .button--transparent {
   background-color: transparent;
   border-style: solid;
@@ -139,15 +145,28 @@ li {
   color: #fff; }
   .button--transparent:hover {
     color: #C8A96A;
-    background-color: rgba(128, 128, 128, 0.5); }
+    background-color: rgba(128, 128, 128, 0.5);
+    cursor: pointer; }
 .button--transparent--black {
   background-color: transparent;
   border: #353A3D;
+  border-style: solid;
+  border-width: 1px;
+  margin: 1em;
   color: #353A3D; }
+  .button--transparent--black:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    border-color: rgba(128, 128, 128, 0.5);
+    color: #fff;
+    cursor: pointer; }
 .button--white {
   background-color: #fff;
-  border-color: #0C0C0C;
+  border-color: transparent;
   color: #0C0C0C; }
+  .button--white:hover {
+    color: #fff;
+    background-color: #C8A96A;
+    cursor: pointer; }
 
 .ligne {
   color: #fff;
@@ -337,7 +356,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: none;
-    background-color: #C8A96A;
+    background-color: #FAF6F0;
     width: 15em;
     margin: 1em; }
     .slide__item--menu {
@@ -348,7 +367,8 @@ footer {
       align-items: flex-start;
       flex-wrap: none; }
       .slide__item--menu:hover {
-        color: #C8A96A; }
+        color: #C8A96A;
+        cursor: pointer; }
     .slide__item--brands {
       background-color: transparent; }
     .slide__item__categorie {
@@ -370,7 +390,8 @@ footer {
       transition: all 0.5s ease-in-out; }
       .slide__item__categorie:hover {
         background-color: #C8A96A;
-        color: #fff; }
+        color: #fff;
+        cursor: pointer; }
     .slide__item__about {
       display: flex;
       flex-direction: column;
@@ -412,7 +433,8 @@ footer {
       transition: all 0.5s ease-in-out;
       border: 2px solid #fff; }
       .slide__item__menu:hover {
-        border: 2px dashed #C8A96A; }
+        border: 2px dashed #C8A96A;
+        cursor: pointer; }
   .slide--menu {
     display: flex;
     flex-direction: row;

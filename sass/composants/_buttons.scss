@@ -4,6 +4,10 @@
         border-radius: 10px;
     }
 
+.gallery {
+    text-align: center;
+}
+
 .button
 {
     &--gold
@@ -12,6 +16,10 @@
         border-color: $color-gold;
         color: $color-white;
         @extend %resise;
+        &:hover {
+            color: $color-black;
+            cursor: pointer;
+        }
     }
 
     &--transparent
@@ -24,20 +32,35 @@
         &:hover {
             color: $color-gold;
             background-color: rgba(128, 128, 128, 0.5);
+            cursor: pointer;
         }
     }
     &--transparent--black {
         background-color: transparent;
         border: $color-lightblack;
+        border-style: solid;
+        border-width: 1px;;
+        margin: 1em;
         color: $color-lightblack;
         @extend %resise;
+        &:hover {
+            background-color: rgba(128, 128, 128, 0.5);
+            border-color: rgba(128, 128, 128, 0.5);
+            color: $color-white;
+            cursor: pointer;
+        }
     }
 
     &--white
     {
         background-color: $color-white;
-        border-color: $color-black;
+        border-color: transparent;
         color: $color-black;
         @extend %resise;
+        &:hover {
+            color: $color-white;
+            background-color: $color-gold;
+            cursor: pointer;
+        }
     }
 }
