@@ -539,21 +539,9 @@ footer {
   margin-right: 10%;
 }
 
-.category .slide {
-  margin-left: 10%;
-}
-.category nav {
-  margin-left: 0%;
-}
-.category .li {
-  margin-left: 0px;
+.grid {
   margin-right: 10%;
-}
-.category .slide__item {
-  margin-left: none;
-}
-.category .itemMenu {
-  margin-left: none;
+  margin-left: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
