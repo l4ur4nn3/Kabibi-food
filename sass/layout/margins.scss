@@ -1,0 +1,24 @@
+@import url("../utils/_variables.scss");
+
+.title-one {
+    margin-left: $margin-left;
+    margin-right: $margin-left;
+}
+.category {
+    .slide {
+        margin-left: 10%;
+    }
+    nav {
+        margin-left: 0%;
+    }
+    .li {
+        margin-left: 0px;
+        margin-right: $margin-left;
+    }
+    .slide__item {
+        margin-left: none;
+    }
+    .itemMenu {
+        margin-left: none;
+    }
+    }

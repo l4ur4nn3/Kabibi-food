@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("../utils/_variables.scss");
+@import url("../utils/_variables.scss");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -414,7 +415,6 @@ footer {
   line-height: 1.2;
   margin-bottom: 1.5rem;
   margin-top: 0.5em;
-  margin-left: 1.5em;
   width: 5em;
 }
 
@@ -533,6 +533,27 @@ footer {
 }
 .grid .fries:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg");
+}
+.title-one {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.category .slide {
+  margin-left: 10%;
+}
+.category nav {
+  margin-left: 0%;
+}
+.category .li {
+  margin-left: 0px;
+  margin-right: 10%;
+}
+.category .slide__item {
+  margin-left: none;
+}
+.category .itemMenu {
+  margin-left: none;
 }
 
 /*# sourceMappingURL=style.css.map */
