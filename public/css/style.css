@@ -156,7 +156,8 @@ footer .slide__footer--menu {
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
-  margin: 10%; }
+  padding-top: 10%;
+  padding-bottom: 10%; }
 
 .img__footer {
   width: 5em;
