@@ -306,8 +306,7 @@ em {
 }
 
 .category {
-  background-color: #FAF6F0;
-  background-image: url("../../ressources/images/banner/imgbgcategory.jpg");
+  background-image: linear-gradient(0deg, rgba(250, 246, 240, 0.6666666667), rgba(250, 246, 240, 0.6666666667)), url("../../ressources/images/banner/imgbgcategory.jpg");
 }
 .category > .title-two {
   color: #C8A96A;

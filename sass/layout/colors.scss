@@ -12,8 +12,8 @@ em {
 }
 
 .category {
-    background-color: $color-cream;
-    background-image: url("../../ressources/images/banner/imgbgcategory.jpg");
+    
+    background-image: linear-gradient(0deg, #faf6f0aa, #faf6f0aa),url("../../ressources/images/banner/imgbgcategory.jpg");
     > .title-two
     {
         color: $color-gold;
