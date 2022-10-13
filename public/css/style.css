@@ -289,6 +289,13 @@ footer .slide__footer--menu {
   z-index: 2;
 }
 
+.our-menu__inter-img {
+  position: relative;
+  left: -12.5%;
+  top: -25em;
+  width: 20%;
+}
+
 header {
   color: #fff;
   background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
@@ -313,9 +320,13 @@ em {
   background-position: right;
   background-repeat: no-repeat;
   background-size: 33%;
+  height: 1058px;
 }
 .ourMenu > .title-two {
   color: #C8A96A;
+}
+.ourMenu > nav {
+  margin-top: -15em;
 }
 
 .chefs {
@@ -431,6 +442,28 @@ footer {
   line-height: 1.7em;
   text-transform: uppercase;
   text-align: left;
+}
+.slide__item__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: none;
+  background-color: #C8A96A;
+  margin: 0.5em;
+  width: 25em;
+  height: 5em;
+  background-color: #fff;
+  color: #C8A96A;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  transition: all 0.5s ease-in-out;
+  border: 2px solid #fff;
+}
+.slide__item__menu:hover {
+  border: 2px dashed #C8A96A;
 }
 .slide--menu {
   display: flex;

@@ -124,3 +124,16 @@
         z-index: 2;
     }
 }
+
+.our-menu
+{
+    &__inter-img
+    {
+        position: relative;
+        left: -($margin-left+2.5%);
+        top: -25em;
+        width: $margin-left*2;
+    }
+
+    
+}

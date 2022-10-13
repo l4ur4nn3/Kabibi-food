@@ -26,9 +26,14 @@ em {
     background-position:right;
     background-repeat: no-repeat;
     background-size:33%;
+    height: 1058px;
     > .title-two
     {
         color: $color-gold;
+    }
+    >nav
+    {
+        margin-top: -15em;
     }
     
 }
