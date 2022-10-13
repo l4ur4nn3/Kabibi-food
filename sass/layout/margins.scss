@@ -5,8 +5,20 @@
     margin-right: $margin-left;
 }
 .category {
-    ul {
-        margin-left: 1.5em;
+    .slide {
+        margin-left: 10%;
+    }
+    nav {
+        margin-left: 0%;
+    }
+    .li {
+        margin-left: 0px;
         margin-right: $margin-left;
     }
-}
+    .slide__item {
+        margin-left: none;
+    }
+    .itemMenu {
+        margin-left: none;
+    }
+    }
