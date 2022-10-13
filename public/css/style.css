@@ -44,10 +44,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-header .title-one, main ul, main h2, main h3, main .texteLatin, main .price, main h4, main .blogTitles {
+header .title-one, main ul, main h2, main h3, main .texteLatin, main .price, main h4, main .blogTitles, footer .slide__footer--menu {
   font-family: 'Lora', serif; }
 
-header, main, footer .footerMenu, footer .footerMenuP {
+header, main, footer .footerMenu, footer .footerMenuP, footer .slide__footer--menu a {
   font-family: 'Open Sans', sans-serif; }
 
 header .title-one {

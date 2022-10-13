@@ -105,5 +105,9 @@ footer {
     }
     .slide__footer--menu {
         font-size: $medium-text;
+        @extend %Lora;
+        a {
+            @extend %Open;
+        }
     }
 }
