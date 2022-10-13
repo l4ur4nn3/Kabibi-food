@@ -63,16 +63,24 @@ h3 {
   font-size: 50px; }
 
 .button--transparent {
-  font-size: 15px; }
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .button--gold, .button--white:hover {
-  font-size: 15px; }
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .button--transparent--black {
-  font-size: 15px; }
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .button--white {
-  font-size: 15px; }
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .slide__item--menu {
   font-size: 15px; }
