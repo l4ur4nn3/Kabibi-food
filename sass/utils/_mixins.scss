@@ -1,4 +1,4 @@
-@mixin flexbase($direction: row, $content: center,$item: center, $wrap: none)
+@mixin flexbase($direction: row, $content: space-between,$item: flex-start, $wrap: none)
 {
     display: flex;
     flex-direction: $direction;

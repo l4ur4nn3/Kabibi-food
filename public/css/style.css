@@ -113,11 +113,9 @@ main .centered-text p {
 main .button--transparent--black {
   font-size: 15px;
 }
-main .date {
-  font-size: 15px;
-}
 main .author {
   font-size: 15px;
+  text-transform: uppercase;
 }
 main .button--white {
   font-size: 15px;
@@ -366,26 +364,27 @@ footer {
 .slide {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: wrap;
+  flex-wrap: none;
 }
 .slide__item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: none;
   background-color: #C8A96A;
   width: 15em;
+  height: 25em;
   margin: 1em;
 }
 .slide__item--menu {
   margin: 1em;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: none;
 }
 .slide__item--menu:hover {
@@ -445,8 +444,8 @@ footer {
 .slide__item__menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: none;
   background-color: #C8A96A;
   margin: 0.5em;
@@ -468,7 +467,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: none;
   width: 100%;
 }
@@ -484,7 +483,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: none;
 }
 .slide__footer--menu {
@@ -566,8 +565,8 @@ footer {
   color: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: none;
 }
 .grid .fries:hover, .grid .steak:hover, .grid .uncooked:hover, .grid .pizza:hover, .grid .sandwiches:hover, .grid .noodles:hover {
@@ -645,6 +644,20 @@ footer {
 section {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.section-blog .slide .slide__item .author {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.section-blog .slide .slide__item .blogTitles {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.section-blog .slide .slide__item .button--white {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

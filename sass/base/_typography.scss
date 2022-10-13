@@ -83,11 +83,9 @@ main {
     .button--transparent--black {
         font-size: $small-text;
     }
-    .date {
-        font-size: $small-text;
-    }
     .author {
         font-size: $small-text;
+        text-transform: uppercase;
     }
     .button--white {
         font-size: $small-text;
