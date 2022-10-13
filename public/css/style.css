@@ -268,6 +268,13 @@ footer .slide__footer--menu {
   margin-right: 1em;
 }
 
+.about-us__tampon {
+  position: relative;
+  top: -25em;
+  right: -80%;
+  z-index: 2;
+}
+
 header {
   color: #fff;
   background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
@@ -385,6 +392,31 @@ footer {
 .slide__item__categorie:hover {
   background-color: #C8A96A;
   color: #fff;
+}
+.slide__item__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: none;
+  background-color: #C8A96A;
+  margin: 1em;
+  padding: 2em 1em;
+  width: 25%;
+  background-color: #fff;
+  color: #0C0C0C;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  transition: all 0.5s ease-in-out;
+}
+.slide__item__about > p {
+  font-weight: 400;
+  margin-bottom: 2em;
+  line-height: 1.7em;
+  text-transform: uppercase;
+  text-align: left;
 }
 .slide--menu {
   display: flex;

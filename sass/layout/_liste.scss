@@ -47,6 +47,34 @@
                 color: $color-white;
             }
         }
+
+        &__about
+        {
+            @include flexbase(column,center,flex-start);
+            background-color: $color-gold;
+            
+            margin: 1em;
+            padding: 2em 1em;
+            width: 25%;
+            // height: 10em;
+            background-color: $color-white;
+            color: $color-black;
+            font-size: 1.5em;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: left;
+            transition: all 0.5s ease-in-out;
+
+            > p
+            {
+                font-weight: 400;
+                margin-bottom: 2em;
+                line-height: 1.7em;
+                text-transform: uppercase;
+                text-align: left;
+            }
+
+        }
     }
 
     &--menu
