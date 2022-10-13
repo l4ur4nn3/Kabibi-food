@@ -538,6 +538,15 @@ section {
   padding-left: 10%;
   padding-right: 10%; }
 
+.chefs .slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: none; }
+  .chefs .slide .slide__item {
+    margin: 0em 0em 1em 0em; }
+
 .section-blog .slide {
   display: flex;
   flex-direction: row;
