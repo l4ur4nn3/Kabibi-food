@@ -364,9 +364,9 @@ footer {
 .slide {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: wrap;
-  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .slide__item {
   display: flex;
@@ -375,7 +375,8 @@ footer {
   align-items: flex-start;
   flex-wrap: none;
   background-color: #C8A96A;
-  height: 25em;
+  width: 15em;
+  height: 15em;
   margin: 1em;
 }
 .slide__item--menu {
@@ -443,7 +444,7 @@ footer {
 .slide__item__menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   flex-wrap: none;
   background-color: #C8A96A;
