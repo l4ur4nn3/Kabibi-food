@@ -1,8 +1,16 @@
 @import url("../utils/_variables.scss");
 
+.block-title {
+    margin-bottom: -5em;
+}
 .title-one {
     margin-left: $margin-left;
     margin-right: $margin-left;
+}
+.about_us_margins {
+    .slide {
+        margin-top: -12.5em;
+    }
 }
 
 section {

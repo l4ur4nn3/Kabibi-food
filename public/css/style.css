@@ -548,9 +548,15 @@ footer {
     .grid .fries:hover {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg"); }
 
+.block-title {
+  margin-bottom: -5em; }
+
 .title-one {
   margin-left: 10%;
   margin-right: 10%; }
+
+.about_us_margins .slide {
+  margin-top: -12.5em; }
 
 section {
   padding-left: 10%;
