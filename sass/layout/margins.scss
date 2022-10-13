@@ -9,3 +9,23 @@ section {
     padding-left: $margin-left;
     padding-right: $margin-left;
 }
+
+.section-blog {
+    .slide {
+        .slide__item {
+            .author {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            .blogTitles {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            .button--white {
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
