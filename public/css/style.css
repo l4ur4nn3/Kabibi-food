@@ -604,6 +604,8 @@ section {
   flex-wrap: none; }
   .chefs .slide .slide__item {
     margin: 0em 0em 1em 0em; }
+    .chefs .slide .slide__item:hover {
+      cursor: grab; }
 
 .category nav .slide {
   display: flex;

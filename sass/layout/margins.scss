@@ -25,6 +25,9 @@ section {
         @include flexbase($direction: row, $content: space-between,$item: flex-start, $wrap: none);
         .slide__item {
             margin: 0em 0em 1em 0em;
+            &:hover {
+                cursor: grab;
+            }
         }
     }
 }
