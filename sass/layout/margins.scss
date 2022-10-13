@@ -12,7 +12,10 @@ section {
 
 .section-blog {
     .slide {
+        @include flexbase(row,space-between,center,wrap);
         .slide__item {
+            width: 22em;
+            height: 25em;
             .author {
                 margin-left: 5%;
                 margin-right: 5%;

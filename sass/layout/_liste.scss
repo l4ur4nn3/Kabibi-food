@@ -75,30 +75,6 @@
             }
 
         }
-
-        &__menu
-        {
-            @include flexbase(row,space-around);
-            background-color: $color-gold;
-            
-            margin: 0.5em;
-            // padding: 2em 1em;
-            width: 25em;
-            height: 5em;
-            background-color: $color-white;
-            color: $color-gold;
-            font-size: 1.5em;
-            font-weight: 400;
-            text-transform: uppercase;
-            text-align: left;
-            transition: all 0.5s ease-in-out;
-            border: 2px solid $color-white;
-
-            &:hover
-            {
-                border: 2px dashed $color-gold;
-            }
-        }
     }
 
     &--menu
