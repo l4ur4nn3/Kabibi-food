@@ -51,11 +51,11 @@ table {
   border-spacing: 0;
 }
 
-main .blogTitles, main h4, main .price, main .texteLatin, main h3, main h2, main ul, header .title-one {
+footer .slide__footer--menu, main .blogTitles, main h4, main .price, main .texteLatin, main h3, main h2, main ul, header .title-one {
   font-family: "Lora", serif;
 }
 
-footer .footerMenuP, footer .footerMenu, main, header {
+footer .slide__footer--menu a, footer .footerMenuP, footer .footerMenu, main, header {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -129,7 +129,6 @@ footer li {
 footer .slide__footer--menu {
   font-size: 20px;
 }
-
 .button--white, .button--transparent--black, .button--transparent, .button--gold, .button--white:hover {
   padding: 1em;
   border-radius: 10px;
@@ -187,6 +186,17 @@ footer .slide__footer--menu {
 .input__button:hover {
   background-color: #fff;
   color: #C8A96A;
+}
+
+.slide-brands {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .img__footer {
@@ -266,6 +276,10 @@ footer .slide__footer--menu {
   padding: 1em;
   padding-top: 8em;
   margin-right: 1em;
+}
+
+.slide__item img {
+  width: 100%;
 }
 
 .about-us__tampon {
@@ -532,13 +546,13 @@ footer {
 .grid .fries .arrow, .grid .noodles .arrow {
   position: relative;
   top: -125px;
-  right: -400px;
+  right: -300px;
 }
 
 .grid .steak .arrow, .grid .uncooked .arrow, .grid .pizza .arrow, .grid .sandwiches .arrow {
   position: relative;
   top: -125px;
-  right: -170px;
+  right: -133px;
 }
 
 .grid {
