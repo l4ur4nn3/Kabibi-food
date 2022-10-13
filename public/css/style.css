@@ -474,9 +474,9 @@ footer {
   background-position: center;
   color: transparent;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: none; }
   .grid .noodles:hover, .grid .sandwiches:hover, .grid .pizza:hover, .grid .uncooked:hover, .grid .steak:hover, .grid .fries:hover {
     color: #fff;
@@ -485,12 +485,12 @@ footer {
 .grid .noodles .arrow, .grid .fries .arrow {
   position: relative;
   top: -125px;
-  right: -300px; }
+  right: -400px; }
 
 .grid .sandwiches .arrow, .grid .pizza .arrow, .grid .uncooked .arrow, .grid .steak .arrow {
   position: relative;
   top: -125px;
-  right: -133px; }
+  right: -250px; }
 
 .grid {
   display: grid;
