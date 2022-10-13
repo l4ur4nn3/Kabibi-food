@@ -13,6 +13,9 @@
 header
 {
     @extend %Open;
+    .slide {
+        @extend %Open;
+    }
 }
 main {
     @extend %Open;
