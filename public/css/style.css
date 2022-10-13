@@ -51,80 +51,98 @@ table {
   border-spacing: 0;
 }
 
-footer .slide__footer--menu, main .blogTitles, main h4, main .price, main .texteLatin, main h3, main h2, main ul, header .title-one {
+.slide__footer--menu, .blogTitles, .price, .texteLatin, ul, h4, h3, h2, .title-one {
   font-family: "Lora", serif;
 }
 
-footer .slide__footer--menu a, footer .footerMenuP, footer .footerMenu, main, header {
+.slide__footer--menu a, .footerMenuP, .footerMenu, main, header {
   font-family: "Open Sans", sans-serif;
 }
 
-header .title-one {
+.title-one {
   text-transform: uppercase;
-}
-header .slide__item--menu {
-  font-size: 15px;
-}
-header .button--transparent {
-  font-size: 15px;
+  font-size: 8rem;
 }
 
-main h2 {
+h2 {
   text-transform: uppercase;
+  font-size: 16rem;
 }
-main h3 {
+
+h3 {
   text-transform: uppercase;
   font-size: 50px;
 }
-main .itemMenu {
-  font-size: 20px;
-  text-transform: capitalize;
-}
-main .texteLatin {
-  font-size: 20px;
-}
-main .titrePlats {
-  font-size: 20px;
-}
-main .price {
-  font-size: 50px;
-}
-main .slide__item {
-  font-size: 20px;
-}
-main .slide__item .blogTitles {
-  text-transform: capitalize;
-}
-main .block-title__sub {
-  font-size: 15px;
-}
-main .button--gold, main .button--white:hover {
-  font-size: 15px;
-}
-main .menu-description {
-  font-size: 15px;
-}
-main .centered-text h4 {
-  font-size: 20px;
-}
-main .centered-text p {
-  font-size: 15px;
-}
-main .button--transparent--black {
-  font-size: 15px;
-}
-main .author {
-  font-size: 15px;
-  text-transform: uppercase;
-}
-main .button--white {
+
+.button--transparent {
   font-size: 15px;
 }
 
-footer li {
+.button--gold, .button--white:hover {
   font-size: 15px;
 }
-footer .slide__footer--menu {
+
+.button--transparent--black {
+  font-size: 15px;
+}
+
+.button--white {
+  font-size: 15px;
+}
+
+.slide__item--menu {
+  font-size: 15px;
+}
+
+li {
+  font-size: 15px;
+}
+
+.itemMenu {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.texteLatin {
+  font-size: 20px;
+}
+
+.titrePlats {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 50px;
+}
+
+.slide__item {
+  font-size: 20px;
+}
+.slide__item .blogTitles {
+  text-transform: capitalize;
+}
+
+.block-title__sub {
+  font-size: 15px;
+}
+
+.menu-description {
+  font-size: 15px;
+}
+
+.centered-text h4 {
+  font-size: 20px;
+}
+.centered-text p {
+  font-size: 15px;
+}
+
+.author {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.slide__footer--menu {
   font-size: 20px;
 }
 .button--white, .button--transparent--black, .button--transparent, .button--gold, .button--white:hover {
@@ -175,7 +193,6 @@ footer .slide__footer--menu {
   border-radius: 0;
   padding: 0.5em;
   width: 2em;
-  font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
@@ -406,7 +423,6 @@ footer {
   height: 8em;
   background-color: #fff;
   color: #C8A96A;
-  font-size: 1.5em;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
@@ -428,7 +444,6 @@ footer {
   width: 25%;
   background-color: #fff;
   color: #0C0C0C;
-  font-size: 1.5em;
   font-weight: 400;
   text-transform: uppercase;
   text-align: left;
@@ -510,7 +525,6 @@ footer {
 }
 
 .title-one {
-  font-size: 8rem;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -519,7 +533,6 @@ footer {
 }
 
 .title-two {
-  font-size: 16rem;
   font-weight: 400;
   line-height: 1.2;
   opacity: 0.1;
@@ -547,7 +560,6 @@ footer {
   margin-top: 0.5em;
 }
 .block-title__sub {
-  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 1.5rem;

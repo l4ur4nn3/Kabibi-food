@@ -9,103 +9,122 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
+//----------------section ----------------
+header
+{
     @extend %Open;
-    .title-one {
-        @extend %Lora;
-        text-transform: uppercase;
-    }
-    .slide__item--menu{
-        font-size: $small-text;
-    }
-    .button--transparent{
-        font-size: $small-text;
-    }
 }
 main {
     @extend %Open;
-    ul {
-        @extend %Lora;
-    }
-    h2 {
-        @extend %Lora;
-        text-transform: uppercase;
-    }
-    h3 {
-        @extend %Lora;
-        text-transform: uppercase;
-        font-size: $huge-text;
-    }
-    .itemMenu {
-        font-size: $medium-text;
-        text-transform: capitalize;
-    }
-    .texteLatin {
-        @extend %Lora;
-        font-size: $medium-text;
-    }
-    .titrePlats {
-        font-size: $medium-text;
-    }
-    .price {
-        font-size: $huge-text;
-        @extend %Lora;
-    }
-    h4 {
-        @extend %Lora;
-    }
+}
+//------------------title------------------
+.title-one {
+    @extend %Lora;
+    text-transform: uppercase;
+    font-size: $small-huge-text;
+}
+
+h2 {
+    @extend %Lora;
+    text-transform: uppercase;
+    font-size: $big-text;
+}
+h3 {
+    @extend %Lora;
+    text-transform: uppercase;
+    font-size: $huge-text;
+}
+
+h4 {
+    @extend %Lora;
+}
+//------------------button------------------
+.button--transparent{
+    font-size: $small-text;
+}
+.button--gold {
+    font-size: $small-text;
+}
+
+.button--transparent--black {
+    font-size: $small-text;
+}
+
+.button--white {
+    font-size: $small-text;
+}
+
+//-------------------other-----------------
+.slide__item--menu{
+    font-size: $small-text;
+}
+
+
+ul {
+    @extend %Lora;
+}
+li {
+    font-size: $small-text;
+}
+.itemMenu {
+    font-size: $medium-text;
+    text-transform: capitalize;
+}
+.texteLatin {
+    @extend %Lora;
+    font-size: $medium-text;
+}
+.titrePlats {
+    font-size: $medium-text;
+}
+.price {
+    font-size: $huge-text;
+    @extend %Lora;
+}
+
+.blogTitles {
+    @extend %Lora;
+}       
+.slide__item {
     .blogTitles {
-        @extend %Lora;
-    }       
-    .slide__item {
-        .blogTitles {
-        text-transform: capitalize;
-        }
+    text-transform: capitalize;
+    }
+    font-size: $medium-text;
+}
+.block-title__sub {
+    font-size: $small-text;
+}
+
+.menu-description {
+    font-size: $small-text;
+}
+.centered-text {
+    h4 {
         font-size: $medium-text;
     }
-    .block-title__sub {
-        font-size: $small-text;
-    }
-    .button--gold {
-        font-size: $small-text;
-    }
-    .menu-description {
-        font-size: $small-text;
-    }
-    .centered-text {
-        h4 {
-            font-size: $medium-text;
-        }
-        p {
-            font-size: $small-text;
-        }
-    }
-    .button--transparent--black {
-        font-size: $small-text;
-    }
-    .author {
-        font-size: $small-text;
-        text-transform: uppercase;
-    }
-    .button--white {
+    p {
         font-size: $small-text;
     }
 }
-footer {
-    .footerMenu {
+
+.author {
+    font-size: $small-text;
+    text-transform: uppercase;
+}
+
+
+
+.footerMenu {
+    @extend %Open;
+}
+.footerMenuP {
+    @extend %Open;
+}
+
+.slide__footer--menu {
+    font-size: $medium-text;
+    @extend %Lora;
+    a {
         @extend %Open;
-    }
-    .footerMenuP {
-        @extend %Open;
-    }
-    li {
-        font-size: $small-text;
-    }
-    .slide__footer--menu {
-        font-size: $medium-text;
-        @extend %Lora;
-        a {
-            @extend %Open;
-        }
     }
 }
