@@ -70,3 +70,11 @@ footer {
         color: $color-white;
     
 }
+
+.footer{
+    &__link 
+    {
+        color: $color-gold;
+        text-decoration: none;
+    }
+}

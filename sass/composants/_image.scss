@@ -1,0 +1,19 @@
+.img__footer
+{
+    width: 5em;
+    object-fit: cover;
+    position: relative;
+    top: -5.5em;
+    z-index: 1;
+}
+
+.icone
+{
+    margin-right: 1em;
+    color: $color-white;
+
+    &:hover
+    {
+        color: $color-gold;
+    }
+}

@@ -37,13 +37,18 @@
     {
         @include flexbase(column,center,center);
         
-
+        &--copyrythe
+        {
+            width: 100%;
+            @include flexbase(row,space-between);
+        }
         &--menu
         {
             @include flexbase(column,flex-start,flex-start);
             min-width: 10em;
             max-width: 20em;
             height: 15em;
+            padding: 3em;
             // margin: 1em;
 
             
