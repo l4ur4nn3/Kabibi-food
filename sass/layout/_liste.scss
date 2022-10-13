@@ -5,10 +5,10 @@
 
     &__item
     {
-        @include flexbase(column);
+        @include flexbase(column, space-between);
         background-color: $color-gold;
         width: 15em;
-        height: 15em;
+        height: 20em;
         margin: 1em;
 
         &--menu
