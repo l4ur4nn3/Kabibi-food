@@ -12,19 +12,33 @@ section {
 
 .section-blog {
     .slide {
+        @include flexbase($direction: row, $content: space-between,$item: flex-start, $wrap: none);
         .slide__item {
+            height: 22em;
+            width: 22em;
             .author {
                 margin-left: 5%;
                 margin-right: 5%;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 1%;
+                padding-bottom: 1%;
             }
             .blogTitles {
                 margin-left: 5%;
                 margin-right: 5%;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 1%;
+                padding-bottom: 1%;
             }
             .button--white {
-                margin-left: 5%;
+                text-transform: uppercase;
+                margin-left: 10%;
                 margin-right: 5%;
                 margin-bottom: 5%;
+                padding-left: 5%;
+                padding-right: 5%;
             }
         }
     }
