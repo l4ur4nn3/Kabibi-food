@@ -547,6 +547,14 @@ section {
   .chefs .slide .slide__item {
     margin: 0em 0em 1em 0em; }
 
+.category nav .slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: none;
+  margin: -1em; }
+
 .section-blog .slide {
   display: flex;
   flex-direction: row;

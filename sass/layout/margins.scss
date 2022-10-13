@@ -17,6 +17,14 @@ section {
         }
     }
 }
+.category {
+    nav {
+        .slide {
+            @include flexbase($direction: row, $content: space-between,$item: flex-start, $wrap: none);
+            margin: -1em;
+        }
+    }
+}
 .section-blog {
     .slide {
         @include flexbase($direction: row, $content: space-between,$item: flex-start, $wrap: none);
