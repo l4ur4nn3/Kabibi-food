@@ -199,6 +199,28 @@ footer .slide__footer--menu {
     left: 50%;
     transform: translate(-50%, -50%); }
 
+.category__pack-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: none;
+  position: relative;
+  top: 32em;
+  margin-bottom: 30em;
+  margin-top: -25em;
+}
+.category__pack-img--center {
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 1em;
+}
+.category__pack-img--left {
+  padding: 1em;
+  padding-top: 8em;
+  margin-right: 1em;
+}
+
 header {
   color: #fff;
   background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
