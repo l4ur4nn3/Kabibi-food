@@ -423,9 +423,6 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
-.slide .not-gold:hover {
-  color: black;
-}
 .slide__item {
   display: flex;
   flex-direction: column;
@@ -433,8 +430,6 @@ footer {
   align-items: flex-start;
   flex-wrap: none;
   background-color: #FAF6F0;
-  width: 15em;
-  margin: 1em;
 }
 .slide__item--menu {
   margin: 1em;
@@ -444,29 +439,19 @@ footer {
   align-items: flex-start;
   flex-wrap: none;
 }
-.slide__item--menu:hover {
-  color: #C8A96A;
-  cursor: pointer;
-}
-.slide__item--brands {
-  background-color: transparent;
-}
 .slide__item__categorie {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #C8A96A;
-  margin: 1em;
   padding: 2em 1em;
   width: 8em;
   height: 8em;
   background-color: #fff;
   color: #C8A96A;
-  font-weight: 400;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   transition: all 0.5s ease-in-out;
 }
 .slide__item__categorie:hover {
@@ -480,23 +465,17 @@ footer {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: none;
-  background-color: #C8A96A;
-  margin: 1em;
   padding: 2em 1em;
   width: 25%;
   background-color: #fff;
   color: #0C0C0C;
-  font-weight: 400;
   text-transform: uppercase;
   text-align: left;
   transition: all 0.5s ease-in-out;
 }
 .slide__item__about > p {
-  font-weight: 400;
   margin-bottom: 2em;
   line-height: 1.7em;
-  text-transform: uppercase;
-  text-align: left;
 }
 .slide__item__menu {
   display: flex;
@@ -504,14 +483,12 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: none;
-  background-color: #C8A96A;
   margin: 0.5em;
   width: 25em;
   height: 5em;
   background-color: #fff;
   color: #C8A96A;
-  font-size: 1.5em;
-  font-weight: 400;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: left;
   transition: all 0.5s ease-in-out;
@@ -527,7 +504,6 @@ footer {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: none;
-  width: 100%;
 }
 .slide__footer {
   display: flex;
@@ -540,7 +516,7 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   flex-wrap: none;
 }
@@ -550,7 +526,6 @@ footer {
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: none;
-  min-width: 10em;
   max-width: 20em;
   height: 15em;
   padding: 3em;
@@ -563,8 +538,7 @@ footer {
   text-decoration: none;
 }
 .slide__footer--menu li:first-child {
-  margin-top: 1em;
-  font-size: 2em;
+  font-size: 38.4615384615px;
 }
 
 .title-one {

@@ -2,49 +2,33 @@
 {
     @include flexbase(row,center,center,wrap);
 
-    .not-gold {
-        &:hover {
-            color:black;
-        }
-    }
-
     &__item
     {
         @include flexbase(column);
-        background-color: #FAF6F0;
-
-        width: 15em;
-
-        margin: 1em;
+        background-color: $color-bronze;
 
         &--menu
         {
             margin: 1em;
             @include flexbase(row);
 
-            &:hover
-            {
-                color: $color-gold;
-                cursor: pointer;
-            }
-        }
-        &--brands {
-            background-color: transparent;
         }
         &__categorie
         {
+            //-----------form----------------
             @include flexbase(column,space-between,center,wrap);
-            background-color: $color-gold;
-            
-            margin: 1em;
+
+            //-----------size----------------
             padding: 2em 1em;
             width: 8em;
             height: 8em;
+
+            //-----------style----------------
             background-color: $color-white;
             color: $color-gold;
-            font-weight: 400;
-            text-transform: uppercase;
+            
             text-align: center;
+            text-transform: uppercase;
             transition: all 0.5s ease-in-out;
 
             &:hover
@@ -57,44 +41,44 @@
 
         &__about
         {
+            //-----------------form----------------
             @include flexbase(column,center,flex-start);
-            background-color: $color-gold;
-            
-            margin: 1em;
+
+            //-----------size----------------
             padding: 2em 1em;
             width: 25%;
-            // height: 10em;
+
+            //-----------style----------------
             background-color: $color-white;
             color: $color-black;
-            font-weight: 400;
+
             text-transform: uppercase;
             text-align: left;
             transition: all 0.5s ease-in-out;
 
             > p
             {
-                font-weight: 400;
                 margin-bottom: 2em;
                 line-height: 1.7em;
-                text-transform: uppercase;
-                text-align: left;
             }
 
         }
 
         &__menu
         {
+            //-----------form----------------
             @include flexbase(row,space-around,center);
-            background-color: $color-gold;
             
+            //-----------size----------------
             margin: 0.5em;
-            // padding: 2em 1em;
             width: 25em;
             height: 5em;
+
+            //-----------style----------------
             background-color: $color-white;
             color: $color-gold;
-            font-size: 1.5em;
-            font-weight: 400;
+
+            font-size: $medium-text;
             text-transform: uppercase;
             text-align: left;
             transition: all 0.5s ease-in-out;
@@ -111,7 +95,6 @@
     &--menu
     {
         @include flexbase(row,space-around);
-        width: 100%;
 
     }
 
@@ -122,20 +105,19 @@
         &--copyrythe
         {
             width: 100%;
-            @include flexbase(row,space-between);
+            @include flexbase(row,space-around);
         }
         &--menu
         {
+            //-----------------form----------------
             @include flexbase(column,flex-start,flex-start);
-            min-width: 10em;
+
+            //-----------size----------------
+            // min-width: 10em;
             max-width: 20em;
             height: 15em;
             padding: 3em;
-            // margin: 1em;
 
-            
-            
-            
             li
             {
                 margin-top: 1em;
@@ -147,8 +129,7 @@
 
                 &:first-child
                 {
-                    margin-top: 1em;
-                    font-size: 2em;
+                    font-size: $huge-text/1.3;
                 }
             }
         }
