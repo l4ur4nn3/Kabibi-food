@@ -185,10 +185,7 @@ footer {
     {
         &__tampon
         {
-            position: absolute;
-            top: 20%;
-            left: 50%;
-            z-index: 1;
+            display: none;
         }
         &__play
         {

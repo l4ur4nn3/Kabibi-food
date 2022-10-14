@@ -383,10 +383,7 @@ footer .kabibi-footer {
     display: none;
   }
   .header__tampon {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    z-index: 1;
+    display: none;
   }
   .header__play {
     width: 5em;
