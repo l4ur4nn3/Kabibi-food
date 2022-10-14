@@ -97,3 +97,19 @@
         }
     }
 }
+@media screen and (max-width: 425px) { 
+            .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+            
+            .noodles { grid-area: 1 / 1 / 2 / 3; }
+            .sandwiches { grid-area: 2 / 1 / 3 / 2; }
+            .pizza { grid-area: 2 / 2 / 3 / 3; }
+            .uncooked { grid-area: 3 / 1 / 4 / 2; }
+            .steak { grid-area: 3 / 2 / 4 / 3; }
+            .fries { grid-area: 4 / 1 / 5 / 3; }
+            }
+        }
