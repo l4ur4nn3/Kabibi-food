@@ -139,3 +139,14 @@ li {
         @extend %Open;
     }
 }
+
+@media screen and (max-width: 425px) 
+{ 
+    .title-one {
+        font-size: $small-huge-text/4;
+    }
+    .title-two {
+        
+        font-size: $big-text/4;
+    }
+}

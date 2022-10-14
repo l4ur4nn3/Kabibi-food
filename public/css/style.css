@@ -153,6 +153,14 @@ li {
 .slide__footer--menu {
   font-size: 20px;
 }
+@media screen and (max-width: 425px) {
+  .title-one {
+    font-size: 2rem;
+  }
+  .title-two {
+    font-size: 4rem;
+  }
+}
 .button--white, .button--transparent--black, .button--transparent, .button--gold {
   padding: 1em;
   border-radius: 10px;
@@ -354,6 +362,23 @@ footer .kabibi-footer {
   width: 20em;
 }
 
+@media screen and (max-width: 425px) {
+  .category__pack-img {
+    display: none;
+  }
+  .category__pack-img--center {
+    display: none;
+  }
+  .category__pack-img--left {
+    display: none;
+  }
+  .our-menu__inter-img {
+    display: none;
+  }
+  .about-us__tampon {
+    display: none;
+  }
+}
 header {
   color: #fff;
   background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
@@ -456,9 +481,6 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: none;
-}
-.slide__item--menu:hover {
-  color: #C8A96A;
 }
 .slide__item__categorie {
   display: flex;
