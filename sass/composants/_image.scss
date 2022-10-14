@@ -133,6 +133,7 @@
         left: -($margin-left+2.5%);
         top: -25em;
         width: $margin-left*2;
+        z-index: 0;
     }
 
     
@@ -143,4 +144,40 @@ footer {
         margin-top: 5em;;
         width: 20em;
     }
+}
+
+@media screen and (max-width: 425px) 
+{ 
+    .category
+    {
+        &__pack-img
+        {
+            display: none;
+            
+            &--center
+            {
+                display: none;
+            }
+
+            &--left
+            {
+                display: none;
+            }
+        }
+    }
+    .our-menu
+    {
+        &__inter-img
+        {
+            display: none;
+        }
+    }
+
+    .about-us
+{
+    &__tampon
+    {
+        display: none;
+    }
+}
 }

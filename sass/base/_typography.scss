@@ -27,7 +27,7 @@ main {
     font-size: $small-huge-text;
 }
 
-h2 {
+.title-two {
     @extend %Lora;
     text-transform: uppercase;
     font-size: $big-text;
@@ -138,5 +138,16 @@ li {
     @extend %Lora;
     a {
         @extend %Open;
+    }
+}
+
+@media screen and (max-width: 425px) 
+{ 
+    .title-one {
+        font-size: $small-huge-text/4;
+    }
+    .title-two {
+        
+        font-size: $big-text/4;
     }
 }
