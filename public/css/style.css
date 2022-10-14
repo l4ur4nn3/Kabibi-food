@@ -586,26 +586,26 @@ footer {
     background-image: url("../../ressources/images/gallery/img6gallerybox.jpg"); }
     .grid .fries:hover {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../ressources/images/gallery/img6gallerybox.jpg"); }
-  @media screen and (max-width: 425px) {
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      grid-column-gap: 5px;
-      grid-row-gap: 5px; } }
-  .grid .noodles {
-    grid-area: 1 / 1 / 2 / 3; }
-  .grid .sandwiches {
-    grid-area: 2 / 1 / 3 / 2; }
-  .grid .pizza {
-    grid-area: 2 / 2 / 3 / 3; }
-  .grid .uncooked {
-    grid-area: 3 / 1 / 4 / 2; }
-  .grid .steak {
-    grid-area: 3 / 2 / 4 / 3; }
-  .grid .fries {
-    grid-area: 4 / 1 / 5 / 3; }
 
+@media screen and (max-width: 425px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; }
+    .grid .noodles {
+      grid-area: 1 / 1 / 2 / 3; }
+    .grid .sandwiches {
+      grid-area: 2 / 1 / 3 / 2; }
+    .grid .pizza {
+      grid-area: 2 / 2 / 3 / 3; }
+    .grid .uncooked {
+      grid-area: 3 / 1 / 4 / 2; }
+    .grid .steak {
+      grid-area: 3 / 2 / 4 / 3; }
+    .grid .fries {
+      grid-area: 4 / 1 / 5 / 3; } }
 .block-title {
   margin-bottom: -5em; }
 
