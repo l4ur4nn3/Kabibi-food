@@ -72,3 +72,12 @@ section {
         }
     }
 }
+
+@media screen and (max-width: 425px) 
+{
+    section 
+    {
+        padding-left: $margin-left/2;
+        padding-right: $margin-left/2;
+    }
+}

@@ -143,10 +143,14 @@ li {
 @media screen and (max-width: 425px) 
 { 
     .title-one {
-        font-size: $small-huge-text/4;
+        font-size: $small-huge-text/2;
     }
     .title-two {
         
         font-size: $big-text/4;
+    }
+
+    h3 {
+        font-size: $huge-text/2;
     }
 }

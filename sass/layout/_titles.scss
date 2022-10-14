@@ -23,7 +23,6 @@
 .block-title
 {
     @include flexbase(column,center,center);
-    font-weight: 400;
     line-height: 1.2;
     margin-bottom: 1.5rem;
     margin-top: 0.5em;
@@ -51,5 +50,15 @@
         // padding-left:6em ;
 
 
+    }
+}
+
+@media screen and (max-width: 425px) 
+{
+    .block-title
+    {
+        @include flexbase(column,center,center);
+        position: relative;
+        top: -5em;
     }
 }
