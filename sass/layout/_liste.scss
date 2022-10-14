@@ -135,3 +135,30 @@
 
     }
 }
+
+@media screen and (max-width: 425px)
+{
+    .slide
+    {
+        &__item
+        {
+            &__about
+            {
+                //-----------------form----------------
+                @include flexbase(column,center,flex-start);
+
+                //-----------size----------------
+                // padding: 2em 1em;
+                width: 75%;
+
+
+                > p
+                {
+                    margin-bottom: 2em;
+                    line-height: 1em;
+                }
+
+            }
+        }
+    }
+}
