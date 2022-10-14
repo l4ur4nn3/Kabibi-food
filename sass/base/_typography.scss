@@ -84,6 +84,7 @@ li {
 .texteLatin {
     @extend %Lora;
     font-size: $medium-text;
+    text-transform: none;
 }
 .titrePlats {
     font-size: $medium-text;
