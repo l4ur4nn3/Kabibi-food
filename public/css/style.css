@@ -290,6 +290,10 @@ li {
   top: -25em;
   width: 20%; }
 
+footer .kabibi-footer {
+  margin-top: 5em;
+  width: 20em; }
+
 header {
   color: #fff;
   background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
