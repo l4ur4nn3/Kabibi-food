@@ -5,12 +5,30 @@ header
     background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../ressources/images/slider/img_bg_slider_home01.jpg");
     background-position: center right;
     height: 750px;
+    .slide--menu {
+        .menu-nav {
+            li {
+                &:hover {
+                    color: $color-gold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }
 
 em {
     color: $color-white;
 }
 
+.about-us-title {
+    color: $color-gold;
+}
+.gallery {
+    .title-two {
+        color: $color-gold;
+    }
+}
 .category {
     
     background-image: linear-gradient(0deg, #faf6f0aa, #faf6f0aa),url("../../ressources/images/banner/imgbgcategory.jpg");
