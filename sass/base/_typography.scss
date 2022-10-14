@@ -27,7 +27,7 @@ main {
     font-size: $small-huge-text;
 }
 
-h2 {
+.title-two {
     @extend %Lora;
     text-transform: uppercase;
     font-size: $big-text;

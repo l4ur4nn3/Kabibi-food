@@ -12,6 +12,10 @@
             margin: 1em;
             @include flexbase(row);
 
+            &:hover
+            {
+                color: $color-gold;
+            }
         }
         &__categorie
         {

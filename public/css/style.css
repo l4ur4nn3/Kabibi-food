@@ -51,7 +51,7 @@ table {
   border-spacing: 0;
 }
 
-.slide__footer--menu, .blogTitles, .price, .texteLatin, ul, h4, h3, h2, .title-one {
+.slide__footer--menu, .blogTitles, .price, .texteLatin, ul, h4, h3, .title-two, .title-one {
   font-family: "Lora", serif;
 }
 
@@ -64,7 +64,7 @@ table {
   font-size: 8rem;
 }
 
-h2 {
+.title-two {
   text-transform: uppercase;
   font-size: 16rem;
 }
@@ -346,6 +346,7 @@ li {
   left: -12.5%;
   top: -25em;
   width: 20%;
+  z-index: 0;
 }
 
 header {
@@ -438,6 +439,9 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: none;
+}
+.slide__item--menu:hover {
+  color: #C8A96A;
 }
 .slide__item__categorie {
   display: flex;

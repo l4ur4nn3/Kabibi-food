@@ -18,6 +18,18 @@ $small-huge-text: 8rem;
 $big-text: 16rem;
 
 @media screen and (max-width: 425px) 
-{
-    $test: 16rem/4;
+{ 
+    $small-text: 15px;
+    $medium-text: 20px;
+    $huge-text: 50px;
+    $small-huge-text: 8rem;
+    $big-text: 4rem;
+}
+@media screen and (min-width: 426px) 
+{ 
+    $small-text: 15px;
+    $medium-text: 20px;
+    $huge-text: 50px;
+    $small-huge-text: 8rem;
+    $big-text: 16rem;
 }
