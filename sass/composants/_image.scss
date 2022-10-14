@@ -174,10 +174,64 @@ footer {
     }
 
     .about-us
-{
-    &__tampon
     {
-        display: none;
+        &__tampon
+        {
+            display: none;
+        }
     }
-}
+
+    .header
+    {
+        &__tampon
+        {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            z-index: 1;
+        }
+        &__play
+        {
+            width: 5em;
+            height: 5em;
+            background-color: $color-white;
+            border-radius: 50%;
+
+            position: absolute;
+            top: 70%;
+            right: 50%;
+
+            &::before
+            {
+                content: "";
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 0.5em 1em 0.5em;
+                border-color: transparent transparent $color-gold transparent;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-40%, -40%) rotate(90deg);
+            }
+
+            &::after
+            {
+                /*circle*/
+                content: "";
+                width: 7em;
+                height: 7em;
+                background-color: none;
+                border-radius: 50%;
+                border: 1px solid $color-white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+
+                
+            }
+        }
+    }
 }

@@ -1,6 +1,5 @@
 .title-one
 {
-    font-weight: 400;
     line-height: 1.2;
     margin-bottom: 1.5rem;
     margin-top: 0.5em;
@@ -60,5 +59,13 @@
         @include flexbase(column,center,center);
         position: relative;
         top: -5em;
+    }
+
+    .title-one
+    {
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        width: 5em;
+
     }
 }

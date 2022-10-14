@@ -382,6 +382,46 @@ footer .kabibi-footer {
   .about-us__tampon {
     display: none;
   }
+  .header__tampon {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    z-index: 1;
+  }
+  .header__play {
+    width: 5em;
+    height: 5em;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    right: 50%;
+  }
+  .header__play::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0.5em 1em 0.5em;
+    border-color: transparent transparent #C8A96A transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%) rotate(90deg);
+  }
+  .header__play::after {
+    /*circle*/
+    content: "";
+    width: 7em;
+    height: 7em;
+    background-color: none;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 header {
   color: #fff;
@@ -589,6 +629,19 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
+  .slide__item__categorie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em 1em;
+    margin-top: 1em;
+    width: 8em;
+    height: 8em;
+    background-color: #fff;
+    color: #C8A96A;
+  }
   .slide__item__about {
     display: flex;
     flex-direction: column;
@@ -603,7 +656,6 @@ footer {
   }
 }
 .title-one {
-  font-weight: 400;
   line-height: 1.2;
   margin-bottom: 1.5rem;
   margin-top: 0.5em;
@@ -653,11 +705,21 @@ footer {
     position: relative;
     top: -5em;
   }
+  .title-one {
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    width: 5em;
+  }
 }
 .tab {
   margin-left: 20em;
 }
 
+@media screen and (max-width: 425px) {
+  .tab {
+    margin-left: 5em;
+  }
+}
 .grid .fries, .grid .steak, .grid .uncooked, .grid .pizza, .grid .sandwiches, .grid .noodles {
   background-repeat: no-repeat;
   background-size: cover;
