@@ -2,11 +2,16 @@
 {
     @include flexbase(row,center,center,wrap);
 
+    .not-gold {
+        &:hover {
+            color:black;
+        }
+    }
 
     &__item
     {
         @include flexbase(column);
-        background-color: $color-gold;
+        background-color: #FAF6F0;
 
         width: 15em;
 
@@ -20,6 +25,7 @@
             &:hover
             {
                 color: $color-gold;
+                cursor: pointer;
             }
         }
         &--brands {
@@ -45,6 +51,7 @@
             {
                 background-color: $color-gold;
                 color: $color-white;
+                cursor: pointer;
             }
         }
 
@@ -96,6 +103,7 @@
             &:hover
             {
                 border: 2px dashed $color-gold;
+                cursor: pointer;
             }
         }
     }
